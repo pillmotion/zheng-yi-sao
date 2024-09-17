@@ -5,49 +5,30 @@ export const page: Page = {
   theme: "light",
   header: {
     brand: {
-      title: "Pagen",
       avatar: {
-        src: "/imgs/logo.png",
-        title: "Pagen",
+        src: "/imgs/png2.png",
+        title: "FizzDragon",
       },
       url: "/",
     },
     nav: {
       items: [
         {
-          title: "Pricing",
-          url: "https://pagen.so/pricing",
+          title: "Official Site",
+          url: "https://fizzdragon.com",
           target: "_blank",
         },
         {
-          title: "Generators",
-          url: "https://pagen.so/landing-page-generator",
-          target: "_blank",
-        },
-        {
-          title: "Showcases",
-          url: "https://pagen.so/showcases",
-          target: "_blank",
-        },
-        {
-          title: "Templates",
-          url: "https://pagen.so/templates",
+          title: "AIGC Global Movie Launchpad",
+          url: "https://launchpad.fizzdragon.com",
           target: "_blank",
         },
       ],
     },
-    buttons: [
-      {
-        title: "Sign In",
-        url: "https://pagen.so/api/auth/signin?callbackUrl=%2Flanding-page-generator",
-        target: "_blank",
-      },
-    ],
   },
   hero: {
-    title: "Create Landing Page with AI Power",
-    description:
-      "Design and launch high-converting landing pages with ease using Pagen AI. Ship Fast with your ideas.",
+    title: "《Zheng Yi Sao》",
+    description: "The movie is set to premiere in October 2024",
     image: {
       src: "/imgs/hero.png",
     },
@@ -55,15 +36,15 @@ export const page: Page = {
     text_align: "left",
     buttons: [
       {
-        title: "Start for free",
-        url: "https://pagen.so/landing-page-generator",
-        target: "_blank",
-      },
-      {
-        title: "Vote on ProductHunt",
-        url: "https://www.producthunt.com/posts/pagen",
+        title: "Share the poster",
+        url: "https://fizzdragon.com",
         target: "_blank",
         theme: "outline",
+      },
+      {
+        title: "Book",
+        url: "https://fizzdragon.com",
+        target: "_blank",
       },
     ],
     show_happy_users: true,
@@ -72,89 +53,119 @@ export const page: Page = {
   section: {
     items: [
       {
-        name: "what",
-        title: "What is Pagen",
+        name: "who",
+        title: "Who is she",
         description:
-          "Pagen is an AI landing page generator that simplifies the process of creating effective landing pages. With its intuitive interface and smart algorithms, you can generate pages that convert visitors into customers.",
+          "One of the top nine pirates in the world, and the only female pirate",
         image: {
-          src: "/imgs/section1.png",
+          src: "/imgs/section5.png",
         },
         image_position: "left",
         text_align: "center",
         items: [
           {
-            title: "Landing Page Generator",
+            title: "The Only Female Top Pirate",
             description:
-              "Pagen can help to generate landing page quickly from your idea",
+              "Ching Shih is the sole woman among the top nine pirates, highlighting her exceptional achievements and pioneering role",
           },
           {
-            title: "Page Content Generator",
+            title: "Pioneering in Piracy",
             description:
-              "Pagen can help to Generate high-quality page content with AI",
+              "Ching Shih broke gender norms in piracy, proving her extraordinary skills and leadership as one of the top nine pirates",
           },
           {
-            title: "Variety Templates",
+            title: "A Lasting Legacy",
             description:
-              "Pagen has multiple built-in page templates to make landing page looks great",
-          },
-        ],
-      },
-      {
-        name: "why",
-        title: "Why Choose Pagen",
-        description:
-          "Pagen stands out with its user-friendly design, powerful AI capabilities, and customizable templates that cater to various industries. It saves you time and enhances your marketing efforts.",
-        image: {
-          src: "/imgs/section2.png",
-        },
-        image_position: "right",
-        text_align: "center",
-        items: [
-          {
-            title: "Ship Fast",
-            description: "Create landing page in seconds",
-          },
-          {
-            title: "Easy to use",
-            description: "Just need a product name from your idea",
-          },
-          {
-            title: "AI Powered",
-            description: "Generate high-quality page content with AI",
+              "Ching Shih’s leadership and success have established her as a powerful and influential figure in maritime history",
           },
         ],
       },
       {
         name: "how",
-        title: "How to Use Pagen",
-        description:
-          "Getting started with Pagen is simple and quick. Follow these steps to create your first landing page:",
+        title: "How did she rise",
+        description: "From fishergirl to prostitute to pirate leader",
         image: {
-          src: "/imgs/section3.png",
+          src: "/imgs/section4.png",
+        },
+        image_position: "right",
+        text_align: "center",
+        items: [
+          {
+            title: "From Fishergirl to Pirate Leader",
+            description:
+              "Ching Shih’s rise from a fishergirl to a powerful pirate leader illustrates her extraordinary transformation and leadership",
+          },
+          {
+            title: "Prostitute to Pirate Queen",
+            description:
+              "Ching Shih's shift from a life as a prostitute to leading a massive pirate fleet showcases her resilience and strategic brilliance",
+          },
+          {
+            title: "Breaking Boundaries",
+            description:
+              "Ching Shih’s journey from marginalized beginnings to a renowned pirate leader highlights her impact on maritime history and gender roles",
+          },
+        ],
+      },
+      {
+        name: "what",
+        title: "What was her fleet like",
+        description:
+          "With a fleet of thousands of warships, commanding a pirate crew of over 100,000",
+        image: {
+          src: "/imgs/section6.png",
         },
         image_position: "left",
         text_align: "center",
         items: [
           {
-            title: "1. Describe your Idea",
+            title: "A Fleet of Thousands",
             description:
-              "Give a product name and a simple description to Pagen Landing Page Genrator.",
+              "Ching Shih commanded a massive fleet consisting of thousands of warships, demonstrating her strategic and logistical prowess in piracy",
           },
           {
-            title: "2. Choose a Template",
+            title: "Leading Over 100,000 Pirates",
             description:
-              "Select from a variety of professionally designed templates that suit your needs.",
+              "With a crew exceeding 100,000, Ching Shih's leadership exemplified her ability to manage and coordinate a vast and formidable pirate organization",
           },
           {
-            title: "3. Customize Your Page",
+            title: "The Power of a Vast Armada",
             description:
-              "Use our AI tools to personalize your landing page with text, images, and branding.",
+              "Ching Shih’s control over a huge fleet and a large crew solidified her status as one of the most powerful and influential pirates in history",
+          },
+        ],
+      },
+      {
+        name: "What",
+        title: "What does she symbolize",
+        description:
+          "The awakening of women's independence and choices of destiny",
+        image: {
+          src: "/imgs/section7.png",
+        },
+        image_position: "right",
+        text_align: "center",
+        items: [
+          {
+            title: "The Rise of Women’s Independence",
+            description:
+              "Ching Shih’s rise to power signifies a major shift in women's roles and independence, showcasing her impact on breaking traditional gender barriers",
+          },
+          {
+            title: "Empowering Women’s Choices",
+            description:
+              "Ching Shih’s journey from humble beginnings to pirate leader highlights the empowerment of women to make bold choices and shape their own destinies",
+          },
+          {
+            title: "Redefining Female Leadership",
+            description:
+              "By leading a powerful pirate fleet, Ching Shih redefined female leadership and independence, setting a precedent for women's roles in history",
           },
         ],
         buttons: [
           {
-            title: "Read to try 👉",
-            url: "https://pagen.so/landing-page-generator",
+            title: "Click to watch 👉",
+            url: "https://fizzdragon.com",
             target: "_blank",
           },
         ],
@@ -162,207 +173,157 @@ export const page: Page = {
     ],
   },
   feature: {
-    title: "Key Features of Pagen",
-    description:
-      "Explore the powerful features that make Pagen the best choice for landing page creation.",
+    title: "The world's first Chinese-language AIGC film",
+    description: "",
     items: [
       {
-        title: "AI-Powered Design",
+        title: "Plot twists and breakthroughs",
         description:
-          "Harness the power of AI to automatically generate beautiful and responsive landing page designs tailored to your brand and target audience.",
+          "A formidable female pirate, engages in a dramatic peace mission against the Qing dynasty. With boldness and cunning, she navigates tense negotiations, captivating audiences with her strategic prowess and plot twists. Her internal battles enrich her heroic portrayal, offering a gripping narrative.",
         avatar: {
-          src: "/imgs/icons/1.svg",
+          src: "/imgs/feature1.png",
         },
       },
       {
-        title: "Customizable Templates",
+        title: "Comedic elements add creativity",
         description:
-          "Choose from a wide range of customizable templates that fit your brand's style and message.",
+          "Blending historical grandeur with comedic irony, the story enlivens characters and highlights biases through humorous negotiations. The contrast between the heroic Zheng Yi Sao and the comic side characters adds a layer of fun to the narrative.",
         avatar: {
-          src: "/imgs/icons/2.svg",
+          src: "/imgs/feature2.png",
         },
       },
       {
-        title: "SEO Optimization",
+        title: "Oriental Aesthetics, Chinese Philosophy",
         description:
-          "Built-in SEO tools to help your landing pages rank higher in search engines and attract more visitors.",
+          "Zheng Yi Sao, a pirate leader, epitomizes Eastern wisdom and the resilience of Chinese tradition. Her life, marked by victories over the British and adoption of Western naval techniques, symbolizes the blend of Eastern and Western cultures.",
         avatar: {
-          src: "/imgs/icons/3.svg",
+          src: "/imgs/feature3.png",
         },
       },
       {
-        title: "Analytics Integration",
+        title: "Unique East-meets-West cultural clash",
         description:
-          "Track the performance of your landing pages with integrated analytics tools to optimize your campaigns.",
+          "In the 18th century, Western expansion led to cultural clashes with the East. Zheng Yi Sao's pirate group emerged from this conflict, symbolizing the complex integration of East and West. The story offers a taste of Eastern heroism and a deeper understanding of enduring philosophical insights.",
         avatar: {
-          src: "/imgs/icons/4.svg",
+          src: "/imgs/feature4.png",
         },
       },
       {
-        title: "Mobile Responsiveness",
+        title: "A distinctive female perspective",
         description:
-          "All landing pages created with Pagen are fully responsive, ensuring a seamless experience on any device.",
+          "Zheng Yi Sao is a heroic woman with both tenderness and bravery. She fought for her rights in a male-dominated era, showcasing the struggles and resilience of women of her time. Her story provides a unique and captivating view for viewers.",
         avatar: {
-          src: "/imgs/icons/5.svg",
+          src: "/imgs/feature5.png",
         },
       },
       {
-        title: "User-Friendly Interface",
+        title: "Cultural resonance through shared roots",
         description:
-          "An intuitive drag-and-drop interface that makes it easy for anyone to create stunning landing pages without any coding skills.",
+          "The film explores Zheng Yi Sao's ties with Southeast Asia, reflecting the homeland nostalgia and immigrant struggles of overseas Chinese. It's a story that resonates with and inspires audiences across the region.",
         avatar: {
-          src: "/imgs/icons/6.svg",
+          src: "/imgs/feature6.png",
         },
       },
     ],
   },
   cta: {
-    title: "Can't wait to use Pagen?",
-    description: "Just start from here, make your idea to be seen",
+    title: "Join the AIGC fan group",
+    description: "",
     buttons: [
       {
-        title: "Try Now",
-        url: "https://pagen.so/landing-page-generator",
+        title: "Send an email",
+        url: "mailto:business@fizzdragon.com",
+        target: "_self",
+      },
+      {
+        title: "Join the community",
+        url: "https://launchpad.fizzdragon.com/forums",
         target: "_blank",
       },
     ],
   },
   testimonial: {
-    title: "What Users Say About Pagen",
-    description:
-      "Hear from our satisfied users who have transformed their landing page creation process.",
+    title: "Our Journey",
+    description: "",
     items: [
       {
-        name: "Mike Jordan",
-        title: "Full-stack Developer",
-        description:
-          "I love this tool so much, it's awesome! Pagen has made my landing page creation process so much easier.",
-        avatar: {
-          src: "/imgs/user/1.png",
-        },
-      },
-      {
-        name: "Sarah Lee",
-        title: "Marketing Manager",
-        description:
-          "Pagen's AI technology is a game changer. I can create landing pages in minutes!",
-        avatar: {
-          src: "/imgs/user/2.png",
-        },
-      },
-      {
-        name: "Tom Smith",
-        title: "Entrepreneur",
-        description:
-          "The templates are beautiful and customizable. I highly recommend Pagen!",
-        avatar: {
-          src: "/imgs/user/3.png",
-        },
-      },
-      {
-        name: "Emily Davis",
-        title: "Content Creator",
-        description:
-          "Pagen has helped me increase my conversion rates significantly. It's a must-have tool!",
-        avatar: {
-          src: "/imgs/user/4.png",
-        },
-      },
-      {
-        name: "John Doe",
-        title: "Business Owner",
-        description:
-          "I was able to create a professional landing page without any design skills. Thank you, Pagen!",
-        avatar: {
-          src: "/imgs/user/5.png",
-        },
-      },
-      {
-        name: "Lisa White",
-        title: "Freelancer",
-        description:
-          "The user interface is so easy to navigate. I love using Pagen for my projects!",
-        avatar: {
-          src: "/imgs/user/6.png",
+        title: "The Pursuit of a Good Story",
+        description: "Since graduating six years ago, I’ve often reflected on what it means to tell a good story. For writers, crafting a compelling narrative is a lifelong journey, one that we dedicate ourselves to fully. While there’s a shared understanding of what makes a story successful—like resonating with the market or captivating audiences—the question of what makes a bad story is much harder to define. This is where my exploration begins.",
+        video: {
+          src: "/videos/pax.mp4",
         },
       },
     ],
   },
   faq: {
-    title: "Frequently Asked Questions About Pagen",
-    description: "Find answers to common questions about using Pagen.",
+    title: "Information",
+    description: "",
     items: [
       {
-        title: "How many pages can I generate using Pagen?",
-        description:
-          "You can generate 3 pages as default, get more credits for page generation when you upgrade to Pro.",
+        title:
+          "Signing Column | When Earth Boils! Wang Yunxuan, Winner of the “Niangziguan Cup” First Prize and Author of the Sci-Fi Novel Rebirth Wish, Signs with FizzDragon",
+        description: "",
+        url: "https://mp.weixin.qq.com/s/w4fTkZ7Y_8mOD7C7MXZoZg",
       },
       {
-        title: "Is there a free trial available?",
-        description:
-          "Yes, Pagen offers a free trial so you can explore its features before committing.",
+        title: "Pax Speaks — Making Good Stories Happen and Be Heard",
+        description: "",
+        url: "https://mp.weixin.qq.com/s/rL9By8AAO5brKusPAbMYMA",
       },
       {
-        title: "Can I integrate Pagen with other tools?",
-        description:
-          "Absolutely! Pagen integrates seamlessly with various marketing and analytics tools.",
+        title:
+          "Signing Column | Journey to the Light! Rising Star of the Chinese Nebula Sci-Fi Awards and Author of Song of the Aurora, “Wang Xiaohai,” Signs with FizzDragon",
+        description: "",
+        url: "https://mp.weixin.qq.com/s/MJrTa5uaHyjk37JSglpJGQ",
       },
       {
-        title: "What types of businesses can benefit from Pagen?",
-        description:
-          "Pagen is perfect for marketers, startups, e-commerce businesses, and anyone looking to create effective landing pages.",
+        title:
+          "Signing Column | Sci-Fi Novel Contest Winner Shao Ziqi Signs Exclusive Deal with FizzDragon to Launch AIGC Edition of Tian Suan, Pushing Sci-Fi Novels into AIGC Film and TV",
+        description: "",
+        url: "https://mp.weixin.qq.com/s/qh4rDHfQM5NBkrH3YvSJgw",
       },
       {
-        title: "Do I need coding skills to use Pagen?",
-        description:
-          "No coding skills are required! Pagen is designed for users of all skill levels.",
+        title:
+          "Latest in 3 Minutes | “Who is she?” “She is the new boss, the new queen of the Red Flag Gang!”",
+        description: "",
+        url: "https://mp.weixin.qq.com/s/e1_-4AkdbDGrnqnFXC2Zxg",
       },
       {
-        title: "What support options are available?",
-        description:
-          "Pagen offers customer support via email and a comprehensive knowledge base for self-help.",
+        title:
+          "Boiling Universe AIGC Film Laboratory | Making Movies with Puzzles? Collecting 10,000 Photos Online to Challenge the Limits of Imaginative Storytelling",
+        description: "",
+        url: "https://mp.weixin.qq.com/s/tVuFYX5eP4YRsMBcABDqSQ",
+      },
+      {
+        title: "FizzDragon × YiMan | AIGC Creates the “Oriental Disney” Myth",
+        description: "",
+        url: "https://mp.weixin.qq.com/s/43Wu26RrQxrDueDWqA-pBQ",
       },
     ],
   },
   footer: {
     brand: {
-      title: "Pagen",
-      description:
-        "Pagen is a page generator powered by AI, it's designed to help businesses and marketers effortlessly create high-converting landing pages that drive results.",
+      title: "FizzDragon",
+      description: "",
       avatar: {
-        src: "/imgs/logo.png",
-        title: "Pagen",
+        src: "/imgs/png2.png",
+        title: "FizzDragon",
       },
-      url: "https://pagen.so",
+      url: "https://fizzdragon.com",
     },
     badge_disabled: false,
-    copyright: "© 2024 • Pagen All rights reserved.",
+    copyright: "© 2024 • FizzDragon All rights reserved.",
     social: {
       items: [
         {
-          title: "Twitter",
-          url: "https://x.com/aipagen",
+          title: "Youtube",
+          url: "https://www.youtube.com/@FizzDragon-AIGC",
           target: "_blank",
         },
         {
-          title: "ProductHunt",
-          url: "https://www.producthunt.com/posts/pagen",
+          title: "Instagram",
+          url: "https://www.instagram.com/chenzhuobieting",
           target: "_blank",
-        },
-        {
-          title: "Discord",
-          url: "https://discord.gg/ZUSutBR4Pv",
-          target: "_blank",
-        },
-        {
-          title: "Telegram",
-          url: "https://t.me/+PCy10CEWOvA3Zjdl",
-          target: "_blank",
-        },
-        {
-          title: "Email",
-          url: "mailto:support@pagen.so",
-          target: "_self",
         },
       ],
     },
@@ -372,42 +333,29 @@ export const page: Page = {
           title: "Products",
           children: [
             {
-              title: "Landing Page Generator",
-              url: "https://pagen.so/landing-page-generator",
+              title: "Official Site",
+              url: "https://fizzdragon.com",
+              target: "_blank",
+            },
+            {
+              title: "AIGC Global Movie Launchpad",
+              url: "https://launchpad.fizzdragon.com",
               target: "_blank",
             },
           ],
         },
         {
-          title: "Friends",
+          title: "Contact Us",
           children: [
             {
-              title: "ThinkAny",
-              url: "https://thinkany.ai",
-              target: "_blank",
+              title: "+65 8132 3869",
+              url: "tel:+6581323869",
+              target: "_self",
             },
             {
-              title: "HeyBeauty",
-              url: "https://heybeauty.ai",
-              target: "_blank",
-            },
-            {
-              title: "GPTs Works",
-              url: "https://gpts.works",
-              target: "_blank",
-            },
-          ],
-        },
-        {
-          title: "Services",
-          children: [
-            {
-              title: "Privacy Policy",
-              url: "/privacy-policy",
-            },
-            {
-              title: "Terms of Service",
-              url: "/terms-of-service",
+              title: "business@fizzdragon.com",
+              url: "mailto:business@fizzdragon.com",
+              target: "_self",
             },
           ],
         },

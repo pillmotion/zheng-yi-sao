@@ -2,6 +2,10 @@
 import { Button } from "@/components/ui/button";
 import { Hero } from "@/types/landing";
 import Link from "next/link";
+import { isDateInPast } from "@/helper/helper";
+import CountdownTimer from "@/templates/shadcn/components/ContdownTimer";
+
+const countdownDate = new Date("2024-10-22T23:18:07");
 
 export default function ({ hero }: { hero: Hero }) {
   if (hero.disabled) {
@@ -19,6 +23,14 @@ export default function ({ hero }: { hero: Hero }) {
           <p className="text-xl sm:text-2xl text-muted-foreground mb-8">
             {hero.description}
           </p>
+          <div className="flex flex-col justify-between items-center mb-8">
+            {!isDateInPast(countdownDate) && (
+              <CountdownTimer
+                deadline={countdownDate}
+                title={"global pre-registrations for the film."}
+              />
+            )}
+          </div>
           <div className="flex flex-row justify-center gap-4">
             {hero.buttons?.map((v, idx) => (
               <Link key={idx} href={v.url || ""} target={v.target || "_self"}>
@@ -34,14 +46,6 @@ export default function ({ hero }: { hero: Hero }) {
           </div>
           {hero.tip && <p className="mt-4 text-sm text-gray-500">{hero.tip}</p>}
         </div>
-
-        {hero.image && (
-          <img
-            alt={hero.image.title}
-            src={hero.image.src}
-            className="mt-8 max-w-full md:max-w-5xl mx-auto rounded-md shadow-2xl border sm:mt-12 block dark:hidden"
-          />
-        )}
       </div>
     </div>
   );

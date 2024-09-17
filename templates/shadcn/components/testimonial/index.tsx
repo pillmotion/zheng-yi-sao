@@ -4,37 +4,25 @@ import { Item, Section } from "@/types/landing";
 
 import React from "react";
 
-const TestimonialCard = ({ item }: { item: Item }) => (
-  <Card className="my-4">
-    <CardContent className="pt-6">
-      <blockquote>
-        <p>"{item.description}"</p>
-      </blockquote>
-      <div className="mt-6 flex items-center gap-x-4">
-        <Avatar>
-          <AvatarImage src={item.avatar?.src} alt={item.avatar?.title} />
-          <AvatarFallback>{item.title?.charAt(0)}</AvatarFallback>
-        </Avatar>
-        <div>
-          <div className="font-semibold">{item.name}</div>
-          <div className="text-zinc-600">{item.title}</div>
-        </div>
-      </div>
-    </CardContent>
-  </Card>
-);
-
-const TestimonialsGrid = ({ items }: { items: Item[] }) => (
-  <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-    {items.map((item: Item, idx: number) => (
-      <TestimonialCard key={idx} item={item} />
-    ))}
+const VideoTestimonial = ({ item }: { item: Item }) => (
+  <div className="flex flex-col md:flex-row gap-8 mb-12">
+    <div className="w-full md:w-1/2">
+      <video
+        src={item.video?.src}
+        controls
+        className="w-full h-auto rounded-lg"
+      />
+    </div>
+    <div className="w-full md:w-1/2 flex flex-col justify-center">
+      <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
+      <p className="text-lg">{item.description}</p>
+    </div>
   </div>
 );
 
 export default function ({ section }: { section: Section }) {
   if (section.disabled) {
-    return;
+    return null;
   }
 
   return (
@@ -48,7 +36,9 @@ export default function ({ section }: { section: Section }) {
             {section.description}
           </div>
         </div>
-        {section.items && <TestimonialsGrid items={section.items} />}
+        {section.items && section.items.map((item, index) => (
+          <VideoTestimonial key={index} item={item} />
+        ))}
       </div>
     </div>
   );

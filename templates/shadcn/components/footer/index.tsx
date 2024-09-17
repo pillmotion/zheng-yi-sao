@@ -1,8 +1,12 @@
-import { Facebook, Github, Instagram, Twitter } from "lucide-react";
+import { Youtube, Instagram } from "lucide-react";
 import { Footer, Item, Nav } from "@/types/landing";
 
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+
+const socialIcons = {
+  Youtube: <Youtube className="w-6 h-6" />,
+  Instagram: <Instagram className="w-6 h-6" />,
+};
 
 export default function ({ footer }: { footer: Footer }) {
   if (footer.disabled) {
@@ -15,8 +19,8 @@ export default function ({ footer }: { footer: Footer }) {
         <div className="flex flex-wrap">
           {/* Newsletter */}
           {footer.brand && footer.brand.title && (
-            <div className="w-full md:w-1/4 text-center md:text-left px-8">
-              <p className="uppercase mb-6 font-bold">{footer.brand.title}</p>
+            <div className="w-full md:w-1/2 text-center md:text-left px-8">
+              <img src="/imgs/footer.jpg" alt="footer" className="h-[104px] w-auto" />
               <div className="flex flex-col">{footer.brand.description}</div>
             </div>
           )}
@@ -54,13 +58,16 @@ export default function ({ footer }: { footer: Footer }) {
             {footer.social?.items?.map((v: Item, idx: number) => {
               return (
                 <a
+                  key={idx}
                   href={v.url}
                   target={v.target}
                   rel="nofollow"
                   className="text-gray-400 hover:text-gray-500 cursor-pointer"
                 >
                   <span className="sr-only">{v.title}</span>
-                  {v.icon}
+                  {socialIcons[v.title as keyof typeof socialIcons] || (
+                    <span>{v.title}</span>
+                  )}
                 </a>
               );
             })}
@@ -70,20 +77,7 @@ export default function ({ footer }: { footer: Footer }) {
         {/* Copyright */}
         <div className="mt-4 text-center">
           <p className="text-base text-gray-400">{footer.copyright}</p>
-          {!footer.badge_disabled && (
-            <div className="mt-4 mb-2 flex flex-wrap space-x-2 text-sm dark:text-gray-400">
-              <div className="w-full flex-shrink-0">
-                built with{" "}
-                <a
-                  href="https://pagen.so"
-                  target="_blank"
-                  className="text-secondary-500"
-                >
-                  Pagen
-                </a>
-              </div>
-            </div>
-          )}
+          {!footer.badge_disabled}
         </div>
       </div>
     </footer>

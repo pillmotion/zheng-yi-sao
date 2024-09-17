@@ -1,9 +1,3 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import { Item, Section } from "@/types/landing";
 
 export default function ({ section }: { section: Section }) {
@@ -21,22 +15,37 @@ export default function ({ section }: { section: Section }) {
           <div className="mt-4 text-center text-sm font-semibold tracking-wide">
             {section.description}
           </div>
-          <Accordion type="single" collapsible className="space-y-4 mt-8">
+          <div className="space-y-4 mt-8">
             {section.items?.map((item: Item, idx: number) => (
-              <AccordionItem
+              <div
                 key={idx}
-                value={`item-${idx}`}
-                className="rounded-lg shadow-sm border"
+                className="rounded-lg shadow-sm border p-4 flex items-center justify-between"
               >
-                <AccordionTrigger className="px-4 py-4">
-                  <span className="text-left font-medium">{item.title}</span>
-                </AccordionTrigger>
-                <AccordionContent className="px-4 pb-4 pt-2 text-gray-600">
-                  {item.description}
-                </AccordionContent>
-              </AccordionItem>
+                <span className="font-medium">{item.title}</span>
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-500 hover:text-primary-700"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
             ))}
-          </Accordion>
+          </div>
         </div>
       </div>
     </section>
