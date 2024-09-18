@@ -110,6 +110,7 @@ export interface Video {
   src: string;
   title?: string;
   auto_play?: boolean;
+  poster?: string;
 }
 
 export interface Button extends Item {}

@@ -9,7 +9,10 @@ const VideoTestimonial = ({ item }: { item: Item }) => (
     <div className="w-full md:w-1/2">
       <video
         src={item.video?.src}
+        poster={item.video?.poster}
         controls
+        preload="metadata"
+        playsInline
         className="w-full h-auto rounded-lg"
       />
     </div>

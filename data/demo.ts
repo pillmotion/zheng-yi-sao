@@ -251,6 +251,8 @@ export const page: Page = {
         description: "Since graduating six years ago, I’ve often reflected on what it means to tell a good story. For writers, crafting a compelling narrative is a lifelong journey, one that we dedicate ourselves to fully. While there’s a shared understanding of what makes a story successful—like resonating with the market or captivating audiences—the question of what makes a bad story is much harder to define. This is where my exploration begins.",
         video: {
           src: "/videos/pax.mp4",
+          poster: "/imgs/poster.png",
+          title: "The Birth of FizzDragon",
         },
       },
     ],
