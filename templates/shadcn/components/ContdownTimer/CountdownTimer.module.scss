@@ -1,14 +1,25 @@
 .container {
-    background-color: #272525;
+    background-color: var(--accent-background, #272525);
     width: 100%;
     display: grid;
     place-items: center;
     padding: 1.2rem 0;
+    border: 1px solid var(--accent-border, #3a3a3a);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .title {
     font-size: clamp(1.3rem, 2.3vw, 1.5rem);
     color: #ffffff;
+    font-weight: var(--font-weight-bold, 700);
+}
+
+.subtitle {
+    font-size: clamp(1rem, 1.8vw, 1.2rem);
+    color: #ffffff;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-weight: var(--font-weight-normal, 400);
 }
 
 .timeWrapper {
@@ -16,7 +27,7 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 .timeContainer {
@@ -30,15 +41,16 @@
 }
 
 .value {
-    margin:  0 4px;
+    margin: 0 4px;
     padding: 0.5rem;
-
-    background: linear-gradient(to bottom, #fdfdfd 50%, #edebeb 50%);
+    background: linear-gradient(to bottom, var(--value-bg-top, #fdfdfd) 50%, var(--value-bg-bottom, #edebeb) 50%);
+    color: var(--value-color, #000000);
     width: 2.1rem;
     display: flex;
     justify-content: center;
-    font-weight: 500;
+    font-weight: var(--font-weight-medium, 500);
     border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .unit {
@@ -46,4 +58,5 @@
     font-size: clamp(0.8rem, 2vw, 1rem);
     margin-top: 5px;
     color: #ffffff;
+    font-weight: var(--font-weight-normal, 400);
 }
