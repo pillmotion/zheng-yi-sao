@@ -27,7 +27,7 @@ export default function ({ hero }: { hero: Hero }) {
             {!isDateInPast(countdownDate) && (
               <CountdownTimer
                 deadline={countdownDate}
-                title={"global pre-registrations for the film."}
+                title={"More than 18,000 people have signed up to watch the film."}
               />
             )}
           </div>
@@ -38,6 +38,13 @@ export default function ({ hero }: { hero: Hero }) {
                   key={idx}
                   size="lg"
                   variant={v.theme === "outline" ? "outline" : "default"}
+                  className={`
+                    ${v.theme !== "outline" 
+                      ? "bg-red-600 hover:bg-red-700" 
+                      : "text-red-600 border-red-600 hover:bg-red-100"
+                    }
+                    text-xl py-6 px-8 h-auto
+                  `}
                 >
                   {v.title}
                 </Button>

@@ -27,7 +27,7 @@ export default function ({ section }: { section: Section }) {
                   key={idx}
                   size="lg"
                   variant={v.theme === "outline" ? "outline" : "default"}
-                  className="w-full sm:w-auto"
+                  className={`w-full sm:w-auto ${v.theme === "outline" ? "text-red-600 border-red-600 hover:bg-red-100" : "bg-red-600 hover:bg-red-700 text-white"} text-xl py-6 px-8 h-auto`}
                 >
                   {v.title}
                 </Button>

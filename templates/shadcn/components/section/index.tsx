@@ -58,8 +58,15 @@ const Feature: FC<{ section: Section }> = ({ section }) => (
             <Link key={idx} href={v.url || ""} target={v.target || "_self"}>
               <Button
                 key={idx}
-                size="sm"
+                size="lg"
                 variant={v.theme === "outline" ? "outline" : "default"}
+                className={`
+                  ${v.theme === "outline"
+                    ? "text-red-600 border-red-600 hover:bg-red-100"
+                    : "bg-red-600 hover:bg-red-700 text-white"
+                  }
+                  text-lg py-5 px-7 h-auto
+                `}
               >
                 {v.title}
               </Button>
