@@ -34,7 +34,7 @@ export default function ({ section }: { section: Section }) {
                 </div>
               )}
               <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-              <p className="text-gray-600">{item.description}</p>
+              <p className="text-muted-foreground">{item.description}</p>
             </div>
           ))}
         </div>

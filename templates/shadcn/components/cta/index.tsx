@@ -27,7 +27,14 @@ export default function ({ section }: { section: Section }) {
                   key={idx}
                   size="lg"
                   variant={v.theme === "outline" ? "outline" : "default"}
-                  className={`w-full sm:w-auto ${v.theme === "outline" ? "text-red-600 border-red-600 hover:bg-red-100" : "bg-red-600 hover:bg-red-700 text-white"} text-xl py-6 px-8 h-auto`}
+                  className={`w-48 h-16
+                    ${v.theme === "outline" 
+                      ? "text-red-600 border-red-600 hover:bg-red-100" 
+                      : "bg-red-600 hover:bg-red-700 text-white"
+                    } 
+                    text-xl flex items-center justify-center // 确保文本居中
+                    transition-colors duration-200 // 添加颜色过渡效果
+                  `}
                 >
                   {v.title}
                 </Button>

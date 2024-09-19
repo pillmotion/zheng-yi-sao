@@ -18,7 +18,7 @@ const VideoTestimonial = ({ item }: { item: Item }) => (
     </div>
     <div className="w-full md:w-1/2 flex flex-col justify-center">
       <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
-      <p className="text-lg">{item.description}</p>
+      <p className="text-lg text-muted-foreground">{item.description}</p>
     </div>
   </div>
 );
