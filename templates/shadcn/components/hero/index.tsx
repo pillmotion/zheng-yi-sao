@@ -5,7 +5,7 @@ import Link from "next/link";
 import { isDateInPast } from "@/helper/helper";
 import CountdownTimer from "@/templates/shadcn/components/ContdownTimer";
 
-const countdownDate = new Date("2024-10-22T23:18:07");
+const countdownDate = new Date("2024-10-06T14:00:00+08:00");
 
 export default function ({ hero }: { hero: Hero }) {
   if (hero.disabled) {
@@ -27,7 +27,7 @@ export default function ({ hero }: { hero: Hero }) {
             {!isDateInPast(countdownDate) && (
               <CountdownTimer
                 deadline={countdownDate}
-                title={"More than 18,000 people have signed up to watch the film."}
+                title={"More than 19,000 people have signed up to watch the film."}
               />
             )}
           </div>
