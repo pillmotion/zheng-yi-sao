@@ -220,7 +220,7 @@ export const page: Page = {
         title: "《律宇宙广告宣传片》",
         description: "全球首个“AI数字律师”宣传推广片：“离婚最黑暗的日子，他陪我聊到下一个天亮”。你的24小时“AI数字法律顾问”，随时随地，想聊就聊，完全免费，更专业、更即时、更陪伴！！！",
         video: {
-          src: "/videos/lv.mp4",
+          src: "/videos/lv-mobile.mp4",
           poster: "/imgs/lv.png",
           title: "The Birth of FizzDragon",
         },
