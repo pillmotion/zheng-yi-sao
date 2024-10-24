@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Zheng Yi Sao",
-  description: "",
+  title: "Project Database",
+  description: "Here, everyone is a storyteller, and every story will be boiling.",
 };
 
 export default function RootLayout({

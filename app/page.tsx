@@ -1,6 +1,6 @@
-import Landing from "@/templates/shadcn/pages/landing";
+import Project from "@/templates/shadcn/pages/project";
 import { Metadata } from "next";
-import { page } from "@/data/demo";
+import { page } from "@/data/project";
 
 export const runtime = "edge";
 
@@ -13,5 +13,5 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function () {
-  return <Landing page={page} />;
+  return <Project page={page} />;
 }

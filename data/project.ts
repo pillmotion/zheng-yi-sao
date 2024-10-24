@@ -25,7 +25,7 @@ export const page: Page = {
         },
         {
           title: "Zheng Yi Sao",
-          url: "/",
+          url: "/zhengyisao",
           target: "_self",
         },
       ],
@@ -96,6 +96,11 @@ export const page: Page = {
         avatar: {
           src: "/imgs/feature9.png",
         },
+        button: {
+          title: "点击观看",
+          url: "https://fizzdragon.com/movie/easy-hero/",
+          target: "_blank",
+        },
       },
       {
         title: "《史记》",
@@ -103,6 +108,11 @@ export const page: Page = {
           "FizzDragon出品的AIGC史记互动剧是基于古代经典《史记》创作的,旨在传播中国传统文化,展示AIGC技术的创新应用,并通过国际跨国团队合作,打造具有全球吸引力的文化产品。平台将提供互动式历史短剧，用户可以通过不同选择改变历史情节的走向，提升游戏化体验。AIGC史记互动剧将分为五部分进行制作，分别从帝王之路、霸王的崛起、辨士纵横天下、绝世英才的风范、汉帝国风云录展开制作。第一集是帝王之路下的《鸿门宴》，两位楚将会饮，由项羽宴请刘邦。此前楚后怀王熊心曾与诸将约定“先入关中者王之”，刘邦因率先进入关中灭秦，欲以秦王子婴为丞相，在关中称王，引发实力强大的项羽不满，刘邦因自度实力不及项羽，于是让出关中的统治权给项羽，项羽最终满意，打消了讨伐刘邦的打算，并为后来几个月后分封诸侯创造和平条件。我们在历史剧情的基础上进行情节设计，观众和用户可以自行选择刘邦或者项羽视角进行观看和互动，并且以鹰和鸟与项羽和刘邦作为角色的互文，深度体验人物性格和命运。作为项羽和刘邦在各自视角又将如何进行这场政治博弈？让我们拭目以待。",
         avatar: {
           src: "/imgs/feature10.png",
+        },
+        button: {
+          title: "点击观看",
+          url: "https://fizzdragon.com/movie/records-of-the-grand-historian/",
+          target: "_blank",
         },
       },
       {
@@ -112,6 +122,11 @@ export const page: Page = {
         avatar: {
           src: "/imgs/feature11.png",
         },
+        button: {
+          title: "点击观看",
+          url: "https://fizzdragon.com/movie/zheng-yi-sao/",
+          target: "_blank",
+        },
       },
       {
         title: "《山海经》",
@@ -119,6 +134,11 @@ export const page: Page = {
           "本剧主要讲述了小道士郭半仙为完成西王母的任务，带领自己的宠物猫朏朏，以及从未来世界穿越过去的徒弟密秘和莫玑，外加旋龟历尽千辛万苦，在山海经里的各路神仙及异兽的帮助下，开启了一路降妖除怪，同时踏遍“山海经”异世界冒险的奇幻旅程，最终抓住了大妖兽穷奇，并重新将其封印在昆仑山上，而且经过捉妖的历练，郭半仙也最终修成正果，成为真正的郭神仙的故事。",
         avatar: {
           src: "/imgs/feature8.png",
+        },
+        button: {
+          title: "即将上线",
+          url: "",
+          target: "_blank",
         },
       },
       {
@@ -128,6 +148,11 @@ export const page: Page = {
         avatar: {
           src: "/imgs/feature7.png",
         },
+        button: {
+          title: "即将上线",
+          url: "",
+          target: "_blank",
+        },
       },
       {
         title: "《孤独笔记》",
@@ -135,6 +160,11 @@ export const page: Page = {
           "孤独笔记是一本关注抑郁人群的奇幻小说，这本书通过失眠青年和一只会说话的猫共同寻找金币的故事，把对人生价值观、世界本质的思考、活着的意义等问题融入其中，关注抑郁人群的人生经历。全球首家AIGC电影制作公司FizzDragon今天宣布，近日已经与豆瓣9.5分高分奇幻小说《孤独笔记》作者贾洋先生完成签约，贾洋先生向FizzDragon全球独家授权，双方将共同为国内9500万抑郁人群，打造一部勇敢的网剧：“AIGC版孤独笔记”。这部网剧预计将分为10集，最快将于明年上线播出。这同时也是国内首部关注抑郁人群的AIGC网剧。",
         avatar: {
           src: "/imgs/feature12.png",
+        },
+        button: {
+          title: "即将上线",
+          url: "",
+          target: "_blank",
         },
       },
     ],
@@ -186,12 +216,27 @@ export const page: Page = {
           title: "The Birth of FizzDragon",
         },
       },
+      {
+        title: "《律宇宙广告宣传片》",
+        description: "全球首个“AI数字律师”宣传推广片：“离婚最黑暗的日子，他陪我聊到下一个天亮”。你的24小时“AI数字法律顾问”，随时随地，想聊就聊，完全免费，更专业、更即时、更陪伴！！！",
+        video: {
+          src: "/videos/lv.mp4",
+          poster: "/imgs/lv.png",
+          title: "The Birth of FizzDragon",
+        },
+      },
     ],
   },
   faq: {
     title: "更多资讯",
     description: "",
     items: [
+      {
+        title:
+          "FizzDragon×星辰杯系列赛事组委会|关于征集科幻小小说作品AIGC共创改编的启事",
+        description: "",
+        url: "https://mp.weixin.qq.com/s/5n71NDiSfgNtOOVMAUWk_w",
+      },
       {
         title:
           "FizzDragon×《易漫》|AIGC打造“东方迪士尼”神话",

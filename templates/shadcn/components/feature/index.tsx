@@ -1,4 +1,6 @@
+import { Button } from "@/components/ui/button";
 import { Item, Section } from "@/types/landing";
+import Link from "next/link";
 
 export default function ({ section }: { section: Section }) {
   if (section.disabled) {
@@ -33,7 +35,37 @@ export default function ({ section }: { section: Section }) {
                   />
                 </div>
               )}
-              <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+              <div className="flex justify-between items-center mb-2">
+                <h3 className="text-xl font-semibold">{item.title}</h3>
+                {item.button && (
+                  !item.button.url ? (
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      className="bg-gray-200 text-gray-500 border-gray-300 cursor-not-allowed"
+                      disabled
+                    >
+                      {item.button.title}
+                    </Button>
+                  ) : (
+                    <Link href={item.button.url} target={item.button.target || "_blank"}>
+                      <Button
+                        size="sm"
+                        variant={item.button.theme === "outline" ? "outline" : "default"}
+                        className={`
+                          ${item.button.theme === "outline" 
+                            ? "text-red-600 border-red-600 hover:bg-red-100" 
+                            : "bg-red-600 hover:bg-red-700 text-white"
+                          } 
+                          transition-colors duration-200
+                        `}
+                      >
+                        {item.button.title}
+                      </Button>
+                    </Link>
+                  )
+                )}
+              </div>
               <p className="text-muted-foreground">{item.description}</p>
             </div>
           ))}

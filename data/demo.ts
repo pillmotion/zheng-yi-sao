@@ -25,7 +25,7 @@ export const page: Page = {
         },
         {
           title: "Project Dashboard",
-          url: "/project",
+          url: "/",
           target: "_self",
         },
       ],
