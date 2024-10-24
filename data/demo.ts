@@ -23,6 +23,11 @@ export const page: Page = {
           url: "https://launchpad.fizzdragon.com",
           target: "_blank",
         },
+        {
+          title: "Project Dashboard",
+          url: "/project",
+          target: "_self",
+        },
       ],
     },
   },
@@ -263,43 +268,43 @@ export const page: Page = {
     items: [
       {
         title:
-          "Signing Column | When Earth Boils! Wang Yunxuan, Winner of the “Niangziguan Cup” First Prize and Author of the Sci-Fi Novel Rebirth Wish, Signs with FizzDragon",
+          'FizzDragon × Yiman | AIGC Creates the "Oriental Disney" Myth',
         description: "",
-        url: "https://mp.weixin.qq.com/s/w4fTkZ7Y_8mOD7C7MXZoZg",
+        url: "https://mp.weixin.qq.com/s/dWPigiTPtqpnW4HTSVy89w",
       },
       {
-        title: "Pax Speaks — Making Good Stories Happen and Be Heard",
+        title: "Boiling Universe AIGC Film Lab | Making Movies Like Assembling a Puzzle? A Nationwide Call for 10,000 Photos, Challenging the Limits of Imaginative Storytelling",
         description: "",
-        url: "https://mp.weixin.qq.com/s/rL9By8AAO5brKusPAbMYMA",
-      },
-      {
-        title:
-          "Signing Column | Journey to the Light! Rising Star of the Chinese Nebula Sci-Fi Awards and Author of Song of the Aurora, “Wang Xiaohai,” Signs with FizzDragon",
-        description: "",
-        url: "https://mp.weixin.qq.com/s/MJrTa5uaHyjk37JSglpJGQ",
+        url: "https://mp.weixin.qq.com/s/y59e7Y5r6HGvRfRewsf5Ew",
       },
       {
         title:
-          "Signing Column | Sci-Fi Novel Contest Winner Shao Ziqi Signs Exclusive Deal with FizzDragon to Launch AIGC Edition of Tian Suan, Pushing Sci-Fi Novels into AIGC Film and TV",
+          'Exclusive Column | First Prize Winner of the Science Fiction Contest, Shao Ziqi, Signs Exclusive Deal with FizzDragon to Launch the "AIGC Version of Heaven’s Calculation," Paving the Way for Sci-Fi Novels to Enter AIGC Film Adaptation',
         description: "",
-        url: "https://mp.weixin.qq.com/s/qh4rDHfQM5NBkrH3YvSJgw",
+        url: "https://mp.weixin.qq.com/s/hwNOPVJ0pmdsTwmiGTzvLA",
       },
       {
         title:
-          "Latest in 3 Minutes | “Who is she?” “She is the new boss, the new queen of the Red Flag Gang!”",
+          'Latest 3 Minutes | "Who is she?" "She is the new leader, the new queen of the Red Flag Gang!"',
         description: "",
-        url: "https://mp.weixin.qq.com/s/e1_-4AkdbDGrnqnFXC2Zxg",
+        url: "https://mp.weixin.qq.com/s/w0FzqcTTge-e9XOI46TJuw",
       },
       {
         title:
-          "Boiling Universe AIGC Film Laboratory | Making Movies with Puzzles? Collecting 10,000 Photos Online to Challenge the Limits of Imaginative Storytelling",
+          'Exclusive Column | Journey of Light! Chinese Nebula Award Rising Star and Author of the Sci-Fi Novel Aurora\'s Song, "Wang Xiaohai," Signs with FizzDragon',
         description: "",
-        url: "https://mp.weixin.qq.com/s/tVuFYX5eP4YRsMBcABDqSQ",
+        url: "https://mp.weixin.qq.com/s/QdDvS0T8SHDKcrBdbmo5vw",
       },
       {
-        title: "FizzDragon × YiMan | AIGC Creates the “Oriental Disney” Myth",
+        title:
+          "Pax Speaks - Let Great Stories Happen and Be Heard",
         description: "",
-        url: "https://mp.weixin.qq.com/s/43Wu26RrQxrDueDWqA-pBQ",
+        url: "https://mp.weixin.qq.com/s/R3z-z7Ih2hrABjbSykJaZA",
+      },
+      {
+        title: 'Exclusive Column | When the Earth Boils! "Niangziguan Cup" First Prize Winner and Author of the Sci-Fi Novel Wish of Rebirth, Wang Yunxuan, Signs with FizzDragon',
+        description: "",
+        url: "https://mp.weixin.qq.com/s/2Ir88ASgY3diKcjFdLYqnQ",
       },
     ],
   },
