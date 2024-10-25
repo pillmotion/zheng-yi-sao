@@ -18,6 +18,12 @@ interface FeatureProps {
 const Feature = ({ section, index }: { section: Section; index: number }) => {
   const t = useScopedI18n("section");
 
+  // 辅助函数来获取标题和描述
+  const getTranslation = (type: 'title' | 'description', index: number): string => {
+    const key = `${type}${index + 1}` as "title1" | "title2" | "title3" | "description1" | "description2" | "description3";
+    return t(key);
+  };
+
   return (
     <div className="my-4 md:my-16 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-24 items-center">
       {section.image_position === "left" && (
@@ -35,10 +41,10 @@ const Feature = ({ section, index }: { section: Section; index: number }) => {
         }`}
       >
         <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
-          {t(`title${index + 1}`)}
+          {getTranslation('title', index)}
         </h2>
         <p className="mt-6 text-lg leading-8 text-muted-foreground">
-          {t(`description${index + 1}`)}
+          {getTranslation('description', index)}
         </p>
 
         {section.items && (

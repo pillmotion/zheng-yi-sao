@@ -48,11 +48,14 @@ export default function ({ header }: { header: Header }) {
           </Link>
 
           <nav className="flex items-center space-x-6 text-sm">
-            {header.nav?.items?.map((v: Item, idx: number) => (
-              <Link key={idx} href={v.url || ""} target={v.target || "_self"}>
-                {headerT(v.key)}
-              </Link>
-            ))}
+            {header.nav?.items?.map((v: Item, idx: number) => {
+              const key = v.key as "title1" | "title2" | "title3"; // 确保 key 是有效的类型
+              return (
+                <Link key={idx} href={v.url || ""} target={v.target || "_self"}>
+                  {headerT(key) || v.title}
+                </Link>
+              );
+            })}
           </nav>
         </div>
 
@@ -83,16 +86,19 @@ export default function ({ header }: { header: Header }) {
         <div className="hidden md:flex items-center space-x-4">
           <LanguageSwitcher />
           <ModeToggle />
-          {header.buttons?.map((v, idx) => (
-            <Link key={idx} href={v.url || ""} target={v.target || "_self"}>
-              <Button
-                size="sm"
-                variant={v.theme === "outline" ? "outline" : "default"}
-              >
-                {v.title}
-              </Button>
-            </Link>
-          ))}
+          {header.buttons?.map((v, idx) => {
+            const key = v.key as "title1" | "title2" | "title3"; // 确保 key 是有效的类型
+            return (
+              <Link key={idx} href={v.url || ""} target={v.target || "_self"}>
+                <Button
+                  size="sm"
+                  variant={v.theme === "outline" ? "outline" : "default"}
+                >
+                  {headerT(key) || v.title}
+                </Button>
+              </Link>
+            );
+          })}
         </div>
 
         {/* 移动端菜单 */}
@@ -106,20 +112,26 @@ export default function ({ header }: { header: Header }) {
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
-              {header.nav?.items?.map((v: Item, idx: number) => (
-                <DropdownMenuItem key={idx}>
-                  <Link href={v.url || ""} target={v.target || "_self"} className="w-full">
-                    {v.title}
-                  </Link>
-                </DropdownMenuItem>
-              ))}
-              {header.buttons?.map((v, idx) => (
-                <DropdownMenuItem key={idx}>
-                  <Link href={v.url || ""} target={v.target || "_self"} className="w-full">
-                    {v.title}
-                  </Link>
-                </DropdownMenuItem>
-              ))}
+              {header.nav?.items?.map((v: Item, idx: number) => {
+                const key = v.key as "title1" | "title2" | "title3"; // 确保 key 是有效的类型
+                return (
+                  <DropdownMenuItem key={idx}>
+                    <Link href={v.url || ""} target={v.target || "_self"} className="w-full">
+                      {headerT(key) || v.title}
+                    </Link>
+                  </DropdownMenuItem>
+                );
+              })}
+              {header.buttons?.map((v, idx) => {
+                const key = v.key as "title1" | "title2" | "title3"; // 确保 key 是有效的类型
+                return (
+                  <DropdownMenuItem key={idx}>
+                    <Link href={v.url || ""} target={v.target || "_self"} className="w-full">
+                      {headerT(key) || v.title}
+                    </Link>
+                  </DropdownMenuItem>
+                );
+              })}
             </DropdownMenuContent>
           </DropdownMenu>
         </div>

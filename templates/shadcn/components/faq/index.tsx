@@ -26,7 +26,19 @@ export default function ({ section }: { section: Section }) {
                 key={idx}
                 className="rounded-lg shadow-sm border p-4 flex items-center justify-between"
               >
-                <span className="font-medium">{t(`title${idx + 1}`)}</span>
+                <span className="font-medium">
+                  {t(
+                    `title${idx + 1}` as
+                      | "title1"
+                      | "title2"
+                      | "title3"
+                      | "title4"
+                      | "title5"
+                      | "title6"
+                      | "title7"
+                      | "title8"
+                  )}
+                </span>
                 <a
                   href={item.url}
                   target="_blank"

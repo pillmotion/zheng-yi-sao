@@ -9,7 +9,7 @@ export default function ({ section }: { section: Section }) {
   const t = useScopedI18n("feature");
 
   if (section.disabled) {
-    return;
+    return null;
   }
 
   return (
@@ -26,54 +26,60 @@ export default function ({ section }: { section: Section }) {
       </div>
       <div className="mt-4 flex flex-col">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {section.items?.map((item: Item, idx: number) => (
-            <div
-              key={idx}
-              className="text-left p-6 border border-gray-200 rounded-lg shadow-sm"
-            >
-              {item.avatar && item.avatar.src && (
-                <div className="mb-3 text-primary-500">
-                  <img
-                    src={item.avatar?.src}
-                    alt={item.avatar?.title}
-                    className="w-full h-auto block"
-                  />
-                </div>
-              )}
-              <div className="flex justify-between items-center mb-2">
-                <h3 className="text-xl font-semibold">{t(`title${idx + 1}`)}</h3>
-                {item.button && (
-                  !item.button.url ? (
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      className="bg-gray-200 text-gray-500 border-gray-300 cursor-not-allowed"
-                      disabled
-                    >
-                      {t(`button${idx + 1}`)}
-                    </Button>
-                  ) : (
-                    <Link href={item.button.url} target={item.button.target || "_blank"}>
+          {section.items?.map((item: Item, idx: number) => {
+            const titleKey = `title${idx + 1}` as keyof typeof t;
+            const buttonKey = `button${idx + 1}` as keyof typeof t;
+            const descriptionKey = `description${idx + 1}` as keyof typeof t;
+
+            return (
+              <div
+                key={idx}
+                className="text-left p-6 border border-gray-200 rounded-lg shadow-sm"
+              >
+                {item.avatar && item.avatar.src && (
+                  <div className="mb-3 text-primary-500">
+                    <img
+                      src={item.avatar?.src}
+                      alt={item.avatar?.title}
+                      className="w-full h-auto block"
+                    />
+                  </div>
+                )}
+                <div className="flex justify-between items-center mb-2">
+                  <h3 className="text-xl font-semibold">{t(titleKey)}</h3>
+                  {item.button && (
+                    !item.button.url ? (
                       <Button
                         size="sm"
-                        variant={item.button.theme === "outline" ? "outline" : "default"}
-                        className={`
-                          ${item.button.theme === "outline" 
-                            ? "text-red-600 border-red-600 hover:bg-red-100" 
-                            : "bg-red-600 hover:bg-red-700 text-white"
-                          } 
-                          transition-colors duration-200
-                        `}
+                        variant="outline"
+                        className="bg-gray-200 text-gray-500 border-gray-300 cursor-not-allowed"
+                        disabled
                       >
-                        {t(`button${idx + 1}`)}
+                        {t(buttonKey)}
                       </Button>
-                    </Link>
-                  )
-                )}
+                    ) : (
+                      <Link href={item.button.url} target={item.button.target || "_blank"}>
+                        <Button
+                          size="sm"
+                          variant={item.button.theme === "outline" ? "outline" : "default"}
+                          className={`
+                            ${item.button.theme === "outline" 
+                              ? "text-red-600 border-red-600 hover:bg-red-100" 
+                              : "bg-red-600 hover:bg-red-700 text-white"
+                            } 
+                            transition-colors duration-200
+                          `}
+                        >
+                          {t(buttonKey)}
+                        </Button>
+                      </Link>
+                    )
+                  )}
+                </div>
+                <p className="text-muted-foreground">{t(descriptionKey)}</p>
               </div>
-              <p className="text-muted-foreground">{t(`description${idx + 1}`)}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>

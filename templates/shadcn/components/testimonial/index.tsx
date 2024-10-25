@@ -5,6 +5,12 @@ import { useScopedI18n } from "@/locales/client";
 
 import React from "react";
 
+// 辅助函数来获取翻译
+const getTranslation = (t: any, type: 'title' | 'description', index: number): string => {
+  const key = `${type}${index + 1}` as "title1" | "description1" | "title2" | "description2" | "title3" | "description3" | "title4" | "description4";
+  return t(key);
+};
+
 const VideoTestimonial = ({ item, index }: { item: Item; index: number }) => {
   const t = useScopedI18n("testimonial");
 
@@ -21,8 +27,8 @@ const VideoTestimonial = ({ item, index }: { item: Item; index: number }) => {
         />
       </div>
       <div className="w-full md:w-1/2 flex flex-col justify-center">
-        <h3 className="text-2xl font-bold mb-4">{t(`title${index + 1}`)}</h3>
-        <p className="text-lg text-muted-foreground">{t(`description${index + 1}`)}</p>
+        <h3 className="text-2xl font-bold mb-4">{getTranslation(t, 'title', index)}</h3>
+        <p className="text-lg text-muted-foreground">{getTranslation(t, 'description', index)}</p>
       </div>
     </div>
   );
