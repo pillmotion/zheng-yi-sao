@@ -7,6 +7,18 @@ import { useScopedI18n } from "@/locales/client";
 
 // import { BGShapeCircle } from "@/components/bg-shape-circle";
 
+const getTranslationLength = (
+  t: (key: string) => string,
+  key: string,
+  fallback: string
+) => {
+  try {
+    return t(key).length;
+  } catch {
+    return fallback.length;
+  }
+};
+
 export default function ({ section }: { section: Section }) {
   const t = useScopedI18n("cta");
 
@@ -26,16 +38,30 @@ export default function ({ section }: { section: Section }) {
             {section.description}
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            {section.buttons?.map((v, idx) => (
-              <Link key={idx} href={v.url || ""} target={v.target || "_blank"}>
-                <Button
+            {section.buttons?.map((v, idx) => {
+              const translationKey = `title${idx + 1}` as "title1" | "title2";
+              const buttonText = t(translationKey) || v.title;
+              const textLength = getTranslationLength(
+                t,
+                translationKey,
+                v.title
+              );
+
+              return (
+                <Link
                   key={idx}
-                  size="lg"
-                  variant={v.theme === "outline" ? "outline" : "default"}
-                  className={`w-48 h-16
-                    ${v.theme === "outline" 
-                      ? "text-red-600 border-red-600 hover:bg-red-100" 
-                      : "bg-red-600 hover:bg-red-700 text-white"
+                  href={v.url || ""}
+                  target={v.target || "_blank"}
+                >
+                  <Button
+                    key={idx}
+                    size="lg"
+                    variant={v.theme === "outline" ? "outline" : "default"}
+                    className={`w-48 h-16
+                    ${
+                      v.theme === "outline"
+                        ? "text-red-600 border-red-600 hover:bg-red-100"
+                        : "bg-red-600 hover:bg-red-700 text-white"
                     } 
                     w-48 h-auto min-h-[4rem] // 设置最小高度
                     text-xl flex items-center justify-center
@@ -44,14 +70,19 @@ export default function ({ section }: { section: Section }) {
                     text-[length:var(--dynamic-font-size)]
                     py-2 px-4 // 添加内边距以确保文本不会太靠近边缘
                   `}
-                  style={{
-                    '--dynamic-font-size': `min(1.25rem, ${Math.sqrt(48 * 48 / t(`title${idx + 1}`).length)}rem)`
-                  } as React.CSSProperties}
-                >
-                  {t(`title${idx + 1}`)}
-                </Button>
-              </Link>
-            ))}
+                    style={
+                      {
+                        "--dynamic-font-size": `min(1.25rem, ${Math.sqrt(
+                          (48 * 48) / textLength
+                        )}rem)`,
+                      } as React.CSSProperties
+                    }
+                  >
+                    {buttonText}
+                  </Button>
+                </Link>
+              );
+            })}
           </div>
           <p className="mt-6 text-sm opacity-75 text-muted-foreground">
             {section.tip}
