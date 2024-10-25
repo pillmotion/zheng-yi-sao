@@ -102,12 +102,12 @@ export default function ({ header }: { header: Header }) {
         </div>
 
         {/* 移动端菜单 */}
-        <div className="md:hidden flex items-center">
+        <div className="md:hidden flex items-center space-x-2">
           <LanguageSwitcher />
           <ModeToggle />
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="outline" size="icon" className="ml-2">
+              <Button variant="outline" size="icon">
                 <Menu className="h-5 w-5" />
                 <span className="sr-only">打开菜单</span>
               </Button>
