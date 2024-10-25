@@ -103,6 +103,7 @@ export default function ({ header }: { header: Header }) {
 
         {/* 移动端菜单 */}
         <div className="md:hidden flex items-center">
+          <LanguageSwitcher />
           <ModeToggle />
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
