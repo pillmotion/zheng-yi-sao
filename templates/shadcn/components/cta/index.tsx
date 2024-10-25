@@ -5,25 +5,11 @@ import Link from "next/link";
 import { Section } from "@/types/landing";
 import { useScopedI18n } from "@/locales/client";
 
-// import { BGShapeCircle } from "@/components/bg-shape-circle";
-
-const getTranslationLength = (
-  t: (key: string) => string,
-  key: string,
-  fallback: string
-) => {
-  try {
-    return t(key).length;
-  } catch {
-    return fallback.length;
-  }
-};
-
 export default function ({ section }: { section: Section }) {
   const t = useScopedI18n("cta");
 
   if (section.disabled) {
-    return;
+    return null;
   }
 
   return (
@@ -40,43 +26,30 @@ export default function ({ section }: { section: Section }) {
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             {section.buttons?.map((v, idx) => {
               const translationKey = `title${idx + 1}` as "title1" | "title2";
-              const buttonText = t(translationKey) || v.title;
-              const textLength = getTranslationLength(
-                t,
-                translationKey,
-                v.title
-              );
+              const buttonText = t(translationKey) || v.title || "Default Text";
+              const textLength = buttonText.length;
 
               return (
-                <Link
-                  key={idx}
-                  href={v.url || ""}
-                  target={v.target || "_blank"}
-                >
+                <Link key={idx} href={v.url || ""} target={v.target || "_blank"}>
                   <Button
                     key={idx}
                     size="lg"
                     variant={v.theme === "outline" ? "outline" : "default"}
-                    className={`w-48 h-16
-                    ${
-                      v.theme === "outline"
-                        ? "text-red-600 border-red-600 hover:bg-red-100"
+                    className={`
+                      ${v.theme === "outline" 
+                        ? "text-red-600 border-red-600 hover:bg-red-100" 
                         : "bg-red-600 hover:bg-red-700 text-white"
-                    } 
-                    w-48 h-auto min-h-[4rem] // 设置最小高度
-                    text-xl flex items-center justify-center
-                    transition-colors duration-200
-                    whitespace-normal break-words
-                    text-[length:var(--dynamic-font-size)]
-                    py-2 px-4 // 添加内边距以确保文本不会太靠近边缘
-                  `}
-                    style={
-                      {
-                        "--dynamic-font-size": `min(1.25rem, ${Math.sqrt(
-                          (48 * 48) / textLength
-                        )}rem)`,
-                      } as React.CSSProperties
-                    }
+                      } 
+                      w-48 h-auto min-h-[4rem]
+                      text-xl flex items-center justify-center
+                      transition-colors duration-200
+                      whitespace-normal break-words
+                      text-[length:var(--dynamic-font-size)]
+                      py-2 px-4
+                    `}
+                    style={{
+                      '--dynamic-font-size': `min(1.25rem, ${Math.sqrt(48 * 48 / textLength)}rem)`
+                    } as React.CSSProperties}
                   >
                     {buttonText}
                   </Button>
