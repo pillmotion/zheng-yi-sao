@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { ThemeProvider } from "@/components/ui/theme-provider";
+import { Providers } from "./providers";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -15,28 +15,24 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Project Database",
-  description: "Here, everyone is a storyteller, and every story will be boiling.",
+  title: "FizzDragon | Project Dashboard",
+  description:
+    "Here, everyone is a storyteller, and every story will be boiling.",
 };
 
 export default function RootLayout({
   children,
+  params: { locale },
 }: Readonly<{
   children: React.ReactNode;
+  params: { locale: string };
 }>) {
   return (
-    <html lang="en">
+    <html lang="locale">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
+        <Providers locale={locale}>{children}</Providers>
       </body>
     </html>
   );

@@ -98,6 +98,7 @@ export interface Item {
   buttons?: Button[];
   disabled?: boolean;
   label?: string;
+  key?: string;
 }
 
 export interface Image {

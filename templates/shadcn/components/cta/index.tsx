@@ -1,10 +1,15 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
-import { FC } from "react";
 import Link from "next/link";
 import { Section } from "@/types/landing";
+import { useScopedI18n } from "@/locales/client";
+
 // import { BGShapeCircle } from "@/components/bg-shape-circle";
 
 export default function ({ section }: { section: Section }) {
+  const t = useScopedI18n("cta");
+
   if (section.disabled) {
     return;
   }
@@ -15,7 +20,7 @@ export default function ({ section }: { section: Section }) {
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32 relative z-10">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">
-            {section.title}
+            {t("title")}
           </h2>
           <p className="mt-6 text-xl leading-8 opacity-90 text-muted-foreground">
             {section.description}
@@ -32,11 +37,18 @@ export default function ({ section }: { section: Section }) {
                       ? "text-red-600 border-red-600 hover:bg-red-100" 
                       : "bg-red-600 hover:bg-red-700 text-white"
                     } 
-                    text-xl flex items-center justify-center // 确保文本居中
-                    transition-colors duration-200 // 添加颜色过渡效果
+                    w-48 h-auto min-h-[4rem] // 设置最小高度
+                    text-xl flex items-center justify-center
+                    transition-colors duration-200
+                    whitespace-normal break-words
+                    text-[length:var(--dynamic-font-size)]
+                    py-2 px-4 // 添加内边距以确保文本不会太靠近边缘
                   `}
+                  style={{
+                    '--dynamic-font-size': `min(1.25rem, ${Math.sqrt(48 * 48 / t(`title${idx + 1}`).length)}rem)`
+                  } as React.CSSProperties}
                 >
-                  {v.title}
+                  {t(`title${idx + 1}`)}
                 </Button>
               </Link>
             ))}

@@ -1,3 +1,5 @@
+"use client";
+
 import { Item, Section } from "@/types/landing";
 
 import { Card } from "@/components/ui/card";

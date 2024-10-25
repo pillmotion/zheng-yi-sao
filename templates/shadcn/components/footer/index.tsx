@@ -1,5 +1,8 @@
+"use client";
+
 import { Youtube, Instagram } from "lucide-react";
 import { Footer, Item, Nav } from "@/types/landing";
+import { useScopedI18n } from "@/locales/client";
 
 import { Button } from "@/components/ui/button";
 
@@ -9,6 +12,8 @@ const socialIcons = {
 };
 
 export default function ({ footer }: { footer: Footer }) {
+  const t = useScopedI18n("footer");
+
   if (footer.disabled) {
     return;
   }
@@ -31,9 +36,10 @@ export default function ({ footer }: { footer: Footer }) {
                 className="w-full md:w-1/4 text-center md:text-left px-8"
                 key={idx}
               >
-                <p className="uppercase mb-6 font-bold">{v.title}</p>
+                <p className="uppercase mb-6 font-bold">{t(`title${idx + 1}`)}</p>
                 <ul className="mb-4">
                   {v.children?.map((item: Item, i) => {
+                    const translationKey = `title${idx + 1}_${i + 1}`;
                     return (
                       <li className="mt-2" key={i}>
                         <a
@@ -41,7 +47,7 @@ export default function ({ footer }: { footer: Footer }) {
                           target={item.target}
                           className="hover:underline text-gray-600 hover:text-gray-800"
                         >
-                          {item.title}
+                         {t(translationKey) || item.title}
                         </a>
                       </li>
                     );
@@ -76,7 +82,7 @@ export default function ({ footer }: { footer: Footer }) {
 
         {/* Copyright */}
         <div className="mt-4 text-center">
-          <p className="text-base text-gray-400">{footer.copyright}</p>
+          <p className="text-base text-gray-400">{t("copyright")}</p>
           {!footer.badge_disabled}
         </div>
       </div>

@@ -1,8 +1,13 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Item, Section } from "@/types/landing";
 import Link from "next/link";
+import { useScopedI18n } from "@/locales/client";
 
 export default function ({ section }: { section: Section }) {
+  const t = useScopedI18n("feature");
+
   if (section.disabled) {
     return;
   }
@@ -11,7 +16,7 @@ export default function ({ section }: { section: Section }) {
     <div className="bg-gradient-to-t py-12 px-4 sm:px-6 lg:px-8 mx-auto max-w-7xl">
       <div className="mx-auto max-w-2xl text-center mb-8">
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-          {section.title}
+          {t("title")}
         </h2>
         {section.tip && (
           <p className="mt-4 text-lg leading-8 text-muted-foreground">
@@ -36,7 +41,7 @@ export default function ({ section }: { section: Section }) {
                 </div>
               )}
               <div className="flex justify-between items-center mb-2">
-                <h3 className="text-xl font-semibold">{item.title}</h3>
+                <h3 className="text-xl font-semibold">{t(`title${idx + 1}`)}</h3>
                 {item.button && (
                   !item.button.url ? (
                     <Button
@@ -45,7 +50,7 @@ export default function ({ section }: { section: Section }) {
                       className="bg-gray-200 text-gray-500 border-gray-300 cursor-not-allowed"
                       disabled
                     >
-                      {item.button.title}
+                      {t(`button${idx + 1}`)}
                     </Button>
                   ) : (
                     <Link href={item.button.url} target={item.button.target || "_blank"}>
@@ -60,13 +65,13 @@ export default function ({ section }: { section: Section }) {
                           transition-colors duration-200
                         `}
                       >
-                        {item.button.title}
+                        {t(`button${idx + 1}`)}
                       </Button>
                     </Link>
                   )
                 )}
               </div>
-              <p className="text-muted-foreground">{item.description}</p>
+              <p className="text-muted-foreground">{t(`description${idx + 1}`)}</p>
             </div>
           ))}
         </div>

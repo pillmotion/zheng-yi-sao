@@ -1,6 +1,11 @@
+"use client";
+
 import { Item, Section } from "@/types/landing";
+import { useScopedI18n } from "@/locales/client";
 
 export default function ({ section }: { section: Section }) {
+  const t = useScopedI18n("faq");
+
   if (section.disabled) {
     return;
   }
@@ -10,7 +15,7 @@ export default function ({ section }: { section: Section }) {
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-24 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl text-center">
-            {section.title}
+            {t("title")}
           </h2>
           <div className="mt-4 text-center text-sm font-semibold tracking-wide">
             {section.description}
@@ -21,7 +26,7 @@ export default function ({ section }: { section: Section }) {
                 key={idx}
                 className="rounded-lg shadow-sm border p-4 flex items-center justify-between"
               >
-                <span className="font-medium">{item.title}</span>
+                <span className="font-medium">{t(`title${idx + 1}`)}</span>
                 <a
                   href={item.url}
                   target="_blank"

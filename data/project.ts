@@ -14,16 +14,19 @@ export const page: Page = {
     nav: {
       items: [
         {
+          key: "title1",
           title: "Official Site",
           url: "https://fizzdragon.com",
           target: "_blank",
         },
         {
+          key: "title2",
           title: "AIGC Global Movie Launchpad",
           url: "https://launchpad.fizzdragon.com",
           target: "_blank",
         },
         {
+          key: "title3",
           title: "Zheng Yi Sao",
           url: "/zhengyisao",
           target: "_self",
@@ -41,6 +44,7 @@ export const page: Page = {
     text_align: "left",
     buttons: [
       {
+        key: "button1",
         title: "点击跳转官网",
         url: "https://fizzdragon.com",
         target: "_blank",

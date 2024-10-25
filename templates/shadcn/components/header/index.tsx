@@ -1,3 +1,5 @@
+"use client";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,8 +12,12 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "@/components/ui/mode-toggle";
+import { LanguageSwitcher } from "@/components/language-switcher";
+import { useScopedI18n } from "@/locales/client";
 
 export default function ({ header }: { header: Header }) {
+  const headerT = useScopedI18n("header");
+
   if (header.disabled) {
     return null;
   }
@@ -44,7 +50,7 @@ export default function ({ header }: { header: Header }) {
           <nav className="flex items-center space-x-6 text-sm">
             {header.nav?.items?.map((v: Item, idx: number) => (
               <Link key={idx} href={v.url || ""} target={v.target || "_self"}>
-                {v.title}
+                {headerT(v.key)}
               </Link>
             ))}
           </nav>
@@ -75,6 +81,7 @@ export default function ({ header }: { header: Header }) {
 
         {/* 桌面版按钮和主题切换 */}
         <div className="hidden md:flex items-center space-x-4">
+          <LanguageSwitcher />
           <ModeToggle />
           {header.buttons?.map((v, idx) => (
             <Link key={idx} href={v.url || ""} target={v.target || "_self"}>
