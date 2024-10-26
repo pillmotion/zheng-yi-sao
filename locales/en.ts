@@ -5,7 +5,7 @@ export default {
     title3: "Zheng Yi Sao",
   },
   hero: {
-    title: "Boiling Universe Project Library",
+    title: "FizzDragon Project Library",
     description: "Here, everyone is a storyteller, and every story will boil over.",
     button1: "Click to jump to the official website",
   },
@@ -53,7 +53,7 @@ export default {
     title: "More Information",
     title1: "FizzDragon × Xingchen Cup Series Organizing Committee | Announcement for Collecting Sci-Fi Short Stories for AIGC Co-creation and Adaptation",
     title2: "FizzDragon × Yiman | AIGC Creates the 'Oriental Disney' Myth",
-    title3: "Boiling Universe AIGC Film Lab | Making Movies Like Assembling a Puzzle? A Nationwide Call for 10,000 Photos, Challenging the Limits of Imaginative Storytelling",
+    title3: "FizzDragon AIGC Film Lab | Making Movies Like Assembling a Puzzle? A Nationwide Call for 10,000 Photos, Challenging the Limits of Imaginative Storytelling",
     title4: "Exclusive Column | First Prize Winner of the Science Fiction Contest, Shao Ziqi, Signs Exclusive Deal with FizzDragon to Launch the 'AIGC Version of Heaven’s Calculation,' Paving the Way for Sci-Fi Novels to Enter AIGC Film Adaptation",
     title5: "Latest 3 Minutes | 'Who is she?' 'She is the new leader, the new queen of the Red Flag Gang!'",
     title6: "Exclusive Column | Journey of Light! Chinese Nebula Award Rising Star and Author of the Sci-Fi Novel Aurora's Song, 'Wang Xiaohai,' Signs with FizzDragon",
