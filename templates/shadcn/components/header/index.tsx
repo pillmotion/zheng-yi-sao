@@ -33,11 +33,16 @@ export default function ({ header }: { header: Header }) {
           >
             {header.brand && header.brand.avatar ? (
               <div className="flex items-center gap-x-2 cursor-pointer">
-                <img
-                  src={header.brand.avatar.src}
-                  alt={header.brand.avatar.title}
-                  className="h-8"
-                />
+                <div className="relative">
+                  <img
+                    src={header.brand.avatar.src}
+                    alt={header.brand.avatar.title}
+                    className="h-8"
+                  />
+                  <span className="absolute -top-2 -right-2 text-red-600 text-xs">
+                    ®
+                  </span>
+                </div>
                 <h1 className="text-xl font-bold">{header.brand.title}</h1>
               </div>
             ) : (
@@ -61,10 +66,7 @@ export default function ({ header }: { header: Header }) {
 
         {/* 移动端 LOGO */}
         <div className="md:hidden flex items-center">
-          <Link
-            href={header.brand?.url || ""}
-            className="text-lg font-medium"
-          >
+          <Link href={header.brand?.url || ""} className="text-lg font-medium">
             {header.brand && header.brand.avatar ? (
               <div className="flex items-center gap-x-2 cursor-pointer">
                 <img
@@ -117,7 +119,11 @@ export default function ({ header }: { header: Header }) {
                 const key = v.key as "title1" | "title2" | "title3"; // 确保 key 是有效的类型
                 return (
                   <DropdownMenuItem key={idx}>
-                    <Link href={v.url || ""} target={v.target || "_self"} className="w-full">
+                    <Link
+                      href={v.url || ""}
+                      target={v.target || "_self"}
+                      className="w-full"
+                    >
                       {headerT(key) || v.title}
                     </Link>
                   </DropdownMenuItem>
@@ -127,7 +133,11 @@ export default function ({ header }: { header: Header }) {
                 const key = v.key as "title1" | "title2" | "title3"; // 确保 key 是有效的类型
                 return (
                   <DropdownMenuItem key={idx}>
-                    <Link href={v.url || ""} target={v.target || "_self"} className="w-full">
+                    <Link
+                      href={v.url || ""}
+                      target={v.target || "_self"}
+                      className="w-full"
+                    >
                       {headerT(key) || v.title}
                     </Link>
                   </DropdownMenuItem>

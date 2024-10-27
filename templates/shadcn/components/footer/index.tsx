@@ -23,7 +23,11 @@ export default function ({ footer }: { footer: Footer }) {
           {/* Newsletter */}
           {footer.brand && footer.brand.title && (
             <div className="w-full md:w-1/2 text-center md:text-left px-8">
-              <img src="/imgs/footer.jpg" alt="footer" className="h-[104px] w-auto" />
+              <img
+                src="/imgs/footer.jpg"
+                alt="footer"
+                className="h-[104px] w-auto"
+              />
               <div className="flex flex-col">{footer.brand.description}</div>
             </div>
           )}
@@ -38,7 +42,9 @@ export default function ({ footer }: { footer: Footer }) {
                 <p className="uppercase mb-6 font-bold">{t(titleKey)}</p>
                 <ul className="mb-4">
                   {v.children?.map((item: Item, i) => {
-                    const translationKey = `title${idx + 1}_${i + 1}` as keyof typeof t;
+                    const translationKey = `title${idx + 1}_${
+                      i + 1
+                    }` as keyof typeof t;
                     return (
                       <li className="mt-2" key={i}>
                         <a
@@ -81,7 +87,16 @@ export default function ({ footer }: { footer: Footer }) {
 
         {/* Copyright */}
         <div className="mt-4 text-center">
-          <p className="text-base text-gray-400">{t("copyright")}</p>
+          <p className="text-base text-gray-400">
+            {t("footer.copyright_prefix")}
+            <span className="relative inline-block mr-2">
+              FizzDragon
+              <span className="absolute -top-1 -right-2 text-gray-400 text-xs">
+                ®
+              </span>
+            </span>
+            {t("footer.copyright_suffix")}
+          </p>
           {!footer.badge_disabled}
         </div>
       </div>
