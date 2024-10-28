@@ -11,6 +11,7 @@ import Pricing from "../components/pricing";
 import Section from "../components/section";
 import Testimonial from "../components/testimonial";
 import Usercase from "../components/usercase";
+import Media from "../components/media";
 
 export default function ({ page }: { page: Page }) {
   return (
@@ -22,6 +23,7 @@ export default function ({ page }: { page: Page }) {
       {page.feature && <Feature section={page.feature} />}
       {/* <Pricing /> */}
       {page.testimonial && <Testimonial section={page.testimonial} />}
+      <Media />
       {page.faq && <Faq section={page.faq} />}
       {page.cta && <Cta section={page.cta} />}
       {page.footer && <Footer footer={page.footer} />}

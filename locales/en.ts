@@ -102,4 +102,10 @@ export default {
       copyright_suffix: " is a registered trademark protected by law. No one may use this trademark in any form without written authorization; otherwise, legal action will be pursued in accordance with the law.",
     },
   },
+  media: {
+    title: "Media Coverage",
+    news1: "Zero Film Background: Engineer Creates the World's First AI Chinese Feature Film",
+    news2: "Morning Light | Morning Focus: The Rise of AI-Produced Film and Television Works with Lower Production Costs",
+    news3: "Singapore’s Epic Quest to Harness AI",
+  },
 } as const;
