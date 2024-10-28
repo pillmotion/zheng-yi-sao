@@ -88,7 +88,6 @@ export default function ({ footer }: { footer: Footer }) {
         {/* Copyright */}
         <div className="mt-4 text-center">
           <p className="text-base text-gray-400">
-            {t("footer.copyright_prefix")}
             <span className="relative inline-block mr-2">
               FizzDragon
               <span className="absolute -top-1 -right-2 text-gray-400 text-xs">

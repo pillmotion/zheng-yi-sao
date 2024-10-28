@@ -99,7 +99,7 @@ export default {
     title2_2: "business@fizzdragon.com",
     footer: {
       copyright_prefix: "© 2024 • ",
-      copyright_suffix: " All rights reserved.",
+      copyright_suffix: " is a registered trademark protected by law. No one may use this trademark in any form without written authorization; otherwise, legal action will be pursued in accordance with the law.",
     },
   },
 } as const;
