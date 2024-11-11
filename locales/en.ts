@@ -50,17 +50,22 @@ export default {
   },
   testimonial: {
     title: "Commercial Advertisement",
-    title1: "Vietnamese Advertisement",
+    title1: "Shaanxi International Trust Commemorative Video",
     description1:
-      "A little girl wearing a traditional Vietnamese conical hat and a white dress is at the center of the story. She not only embodies the essence of Vietnamese culture but also blends with the magic world of Disney, combining local culture with globally renowned IPs to create a unique resonance. Through this image design, the audience will feel a sense of familiarity and freshness, perfectly blending the girl's innocence with the charm of Disney characters.",
-    title2: "Singapore 'New' IP Promotional Film",
-    description2:
-      "The Singapore 'New' IP promotional film is full of modern and futuristic elements, showcasing a vibrant global city. High-rise buildings and bustling cityscapes are interspersed with creative shots, highlighting Singapore's leading position in smart cities, green technology, and multiculturalism. Innovators, entrepreneurs, and artists from all over the world gather in this city, portraying a future metropolis centered on openness, innovation, and sustainable development, attracting global attention.",
-    title3: "Massage Chair Advertisement",
+      "\"Building Trust with Integrity, Serving Thousands of Families.\" FizzDragon exclusively presents an AIGC promotional video commemorating Shaanxi International Trust's 30th listing anniversary and 40th founding anniversary.",
+    title2: "AIGC Youth Education Team Creative Shampoo Commercial",
+    description2: "AI-empowered, bringing fresh creativity to 'washing'!",
+    title3: "Vietnamese Advertisement",
     description3:
-      "Whether you're on a long flight or relaxing at home, the massage chair, through its gentle massage modes and multiple adjustment options, helps relieve muscle fatigue, reduce stress, and allows you to feel the warmth and comfort of home even in the clouds. Coupled with the tranquil cabin environment, you will experience an unprecedented sense of ease and tranquility. The massage chair accompanies you as you soar through the sky, enjoying every moment of relaxation!",
-    title4: "Law Universe Advertisement",
+      "A little girl wearing a traditional Vietnamese conical hat and a white dress is at the center of the story. She not only embodies the essence of Vietnamese culture but also blends with the magic world of Disney, combining local culture with globally renowned IPs to create a unique resonance. Through this image design, the audience will feel a sense of familiarity and freshness, perfectly blending the girl's innocence with the charm of Disney characters.",
+    title4: "Singapore 'New' IP Promotional Film",
     description4:
+      "The Singapore 'New' IP promotional film is full of modern and futuristic elements, showcasing a vibrant global city. High-rise buildings and bustling cityscapes are interspersed with creative shots, highlighting Singapore's leading position in smart cities, green technology, and multiculturalism. Innovators, entrepreneurs, and artists from all over the world gather in this city, portraying a future metropolis centered on openness, innovation, and sustainable development, attracting global attention.",
+    title5: "Massage Chair Advertisement",
+    description5:
+      "Whether you're on a long flight or relaxing at home, the massage chair, through its gentle massage modes and multiple adjustment options, helps relieve muscle fatigue, reduce stress, and allows you to feel the warmth and comfort of home even in the clouds. Coupled with the tranquil cabin environment, you will experience an unprecedented sense of ease and tranquility. The massage chair accompanies you as you soar through the sky, enjoying every moment of relaxation!",
+    title6: "Law Universe Advertisement",
+    description6:
       "Global Premiere of the 'AI Digital Lawyer' Promotional Film: 'On the darkest day of my divorce, he stayed with me until dawn.' Your 24/7 'AI Digital Legal Consultant,' anytime, anywhere, available for chat, completely free, more professional, more immediate, and more supportive!!!",
   },
   faq: {
