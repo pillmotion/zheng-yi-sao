@@ -194,6 +194,15 @@ export const page: Page = {
     description: "",
     items: [
       {
+        title: "《浙江省非物质文化遗产馆文化宣传片钱王射潮》",
+        description: "“我将选军三百人，造箭三千支，随我射潮，以定此患！”用最新的AIGC数字技术，让传统非物质文化遗产真正“活”起来！！！浙江省非物质文化遗产馆、FizzDragon、沸腾宇宙影业，联合推出中国首个“非遗AIGC”推广片！用AIGC点燃千年传奇，再现“钱王射潮”壮丽史诗，AI复活非遗之美，致敬中华文化之魂。",
+        video: {
+          src: "/videos/qwsc-mobile.mp4",
+          poster: "/imgs/qwsc.png",
+          title: "The Birth of FizzDragon",
+        },
+      },
+      {
         title: "《陕国投广告宣传片》",
         description: "一位戴着越南传统斗笠、身穿白色长裙的小女孩出现在故事的中心。她不仅体现了越南文化的精髓，还融合了迪士尼的魔法世界，将本地文化与全球知名的IP结合，产生了独特的共鸣。通过这样的形象设计，观众将感受到一种既熟悉又新鲜的感觉，小女孩的天真无邪与迪士尼角色的魅力完美融合。",
         video: {

@@ -50,22 +50,25 @@ export default {
   },
   testimonial: {
     title: "Commercial Advertisement",
-    title1: "Shaanxi International Trust Commemorative Video",
+    title1: "King Qian's Tidal Shot - A Cultural Promotional Film for Zhejiang Intangible Cultural Heritage Museum",
     description1:
+      "\"I shall select three hundred soldiers and craft three thousand arrows. Follow me to shoot the tide, and we shall end this calamity!\" Using the latest AIGC digital technology to truly bring traditional intangible cultural heritage to life! Zhejiang Intangible Cultural Heritage Museum, FizzDragon, and Boiling Universe Films jointly present China's first \"Intangible Cultural Heritage AIGC\" promotional film! Igniting a thousand-year legend with AIGC, recreating the magnificent epic of \"King Qian's Tidal Shot\". AI revives the beauty of intangible cultural heritage, paying tribute to the soul of Chinese culture.",
+    title2: "Shaanxi International Trust Commemorative Video",
+    description2:
       "\"Building Trust with Integrity, Serving Thousands of Families.\" FizzDragon exclusively presents an AIGC promotional video commemorating Shaanxi International Trust's 30th listing anniversary and 40th founding anniversary.",
-    title2: "AIGC Youth Education Team Creative Shampoo Commercial",
-    description2: "AI-empowered, bringing fresh creativity to 'washing'!",
-    title3: "Vietnamese Advertisement",
-    description3:
-      "A little girl wearing a traditional Vietnamese conical hat and a white dress is at the center of the story. She not only embodies the essence of Vietnamese culture but also blends with the magic world of Disney, combining local culture with globally renowned IPs to create a unique resonance. Through this image design, the audience will feel a sense of familiarity and freshness, perfectly blending the girl's innocence with the charm of Disney characters.",
-    title4: "Singapore 'New' IP Promotional Film",
+    title3: "AIGC Youth Education Team Creative Shampoo Commercial",
+    description3: "AI-empowered, bringing fresh creativity to 'washing'!",
+    title4: "Vietnamese Advertisement",
     description4:
-      "The Singapore 'New' IP promotional film is full of modern and futuristic elements, showcasing a vibrant global city. High-rise buildings and bustling cityscapes are interspersed with creative shots, highlighting Singapore's leading position in smart cities, green technology, and multiculturalism. Innovators, entrepreneurs, and artists from all over the world gather in this city, portraying a future metropolis centered on openness, innovation, and sustainable development, attracting global attention.",
-    title5: "Massage Chair Advertisement",
+      "A little girl wearing a traditional Vietnamese conical hat and a white dress is at the center of the story. She not only embodies the essence of Vietnamese culture but also blends with the magic world of Disney, combining local culture with globally renowned IPs to create a unique resonance. Through this image design, the audience will feel a sense of familiarity and freshness, perfectly blending the girl's innocence with the charm of Disney characters.",
+    title5: "Singapore 'New' IP Promotional Film",
     description5:
-      "Whether you're on a long flight or relaxing at home, the massage chair, through its gentle massage modes and multiple adjustment options, helps relieve muscle fatigue, reduce stress, and allows you to feel the warmth and comfort of home even in the clouds. Coupled with the tranquil cabin environment, you will experience an unprecedented sense of ease and tranquility. The massage chair accompanies you as you soar through the sky, enjoying every moment of relaxation!",
-    title6: "Law Universe Advertisement",
+      "The Singapore 'New' IP promotional film is full of modern and futuristic elements, showcasing a vibrant global city. High-rise buildings and bustling cityscapes are interspersed with creative shots, highlighting Singapore's leading position in smart cities, green technology, and multiculturalism. Innovators, entrepreneurs, and artists from all over the world gather in this city, portraying a future metropolis centered on openness, innovation, and sustainable development, attracting global attention.",
+    title6: "Massage Chair Advertisement",
     description6:
+      "Whether you're on a long flight or relaxing at home, the massage chair, through its gentle massage modes and multiple adjustment options, helps relieve muscle fatigue, reduce stress, and allows you to feel the warmth and comfort of home even in the clouds. Coupled with the tranquil cabin environment, you will experience an unprecedented sense of ease and tranquility. The massage chair accompanies you as you soar through the sky, enjoying every moment of relaxation!",
+    title7: "Law Universe Advertisement",
+    description7:
       "Global Premiere of the 'AI Digital Lawyer' Promotional Film: 'On the darkest day of my divorce, he stayed with me until dawn.' Your 24/7 'AI Digital Legal Consultant,' anytime, anywhere, available for chat, completely free, more professional, more immediate, and more supportive!!!",
   },
   faq: {
