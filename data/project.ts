@@ -194,10 +194,10 @@ export const page: Page = {
     description: "",
     items: [
       {
-        title: "《中广协广告宣传片》",
+        title: "《中国广告业AI营销新质生产力共创平台宣传片》",
         description: "AIGC点亮创意：广告新时代的无限可能！在第31届中国国际广告节，中国广告协会、蓝色光标、百度、利欧数字、腾讯、FizzDragon共同发起并启动 “中国广告业AI营销新质生产力共创平台”！这是一次科技与创意的激烈碰撞，开辟广告新时代的全新篇章！",
         video: {
-          src: "/videos/zgx.mp4",
+          src: "/videos/zgx-mobile.mp4",
           poster: "/imgs/zgx.png",
           title: "The Birth of FizzDragon",
         },

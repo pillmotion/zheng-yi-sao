@@ -50,7 +50,7 @@ export default {
   },
   testimonial: {
     title: "Commercial Advertisement",
-    title1: "China Advertising Association Promotional Video",
+    title1: "AI Marketing New Productivity Co-creation Platform for China's Advertising Industry",
     description1:
       "AIGC Ignites Creativity: Infinite Possibilities in the New Era of Advertising! At the 31st China International Advertising Festival, the China Advertising Association, Blue Focus, Baidu, Leo Digital, Tencent, and FizzDragon jointly launched the 'AI Marketing New Productivity Co-creation Platform for China's Advertising Industry'! This is a powerful collision of technology and creativity, opening a new chapter in the era of advertising!",
     title2: "King Qian's Tidal Shot - A Cultural Promotional Film for Zhejiang Intangible Cultural Heritage Museum",
