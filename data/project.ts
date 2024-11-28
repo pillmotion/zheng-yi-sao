@@ -194,6 +194,15 @@ export const page: Page = {
     description: "",
     items: [
       {
+        title: "《中广协广告宣传片》",
+        description: "AIGC点亮创意：广告新时代的无限可能！在第31届中国国际广告节，中国广告协会、蓝色光标、百度、利欧数字、腾讯、FizzDragon共同发起并启动 “中国广告业AI营销新质生产力共创平台”！这是一次科技与创意的激烈碰撞，开辟广告新时代的全新篇章！",
+        video: {
+          src: "/videos/zgx.mp4",
+          poster: "/imgs/zgx.png",
+          title: "The Birth of FizzDragon",
+        },
+      },
+      {
         title: "《浙江省非物质文化遗产馆文化宣传片钱王射潮》",
         description: "“我将选军三百人，造箭三千支，随我射潮，以定此患！”用最新的AIGC数字技术，让传统非物质文化遗产真正“活”起来！！！浙江省非物质文化遗产馆、FizzDragon、沸腾宇宙影业，联合推出中国首个“非遗AIGC”推广片！用AIGC点燃千年传奇，再现“钱王射潮”壮丽史诗，AI复活非遗之美，致敬中华文化之魂。",
         video: {

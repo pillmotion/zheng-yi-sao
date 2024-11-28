@@ -50,25 +50,28 @@ export default {
   },
   testimonial: {
     title: "Commercial Advertisement",
-    title1: "King Qian's Tidal Shot - A Cultural Promotional Film for Zhejiang Intangible Cultural Heritage Museum",
+    title1: "China Advertising Association Promotional Video",
     description1:
-      "\"I shall select three hundred soldiers and craft three thousand arrows. Follow me to shoot the tide, and we shall end this calamity!\" Using the latest AIGC digital technology to truly bring traditional intangible cultural heritage to life! Zhejiang Intangible Cultural Heritage Museum, FizzDragon, and Boiling Universe Films jointly present China's first \"Intangible Cultural Heritage AIGC\" promotional film! Igniting a thousand-year legend with AIGC, recreating the magnificent epic of \"King Qian's Tidal Shot\". AI revives the beauty of intangible cultural heritage, paying tribute to the soul of Chinese culture.",
-    title2: "Shaanxi International Trust Commemorative Video",
+      "AIGC Ignites Creativity: Infinite Possibilities in the New Era of Advertising! At the 31st China International Advertising Festival, the China Advertising Association, Blue Focus, Baidu, Leo Digital, Tencent, and FizzDragon jointly launched the 'AI Marketing New Productivity Co-creation Platform for China's Advertising Industry'! This is a powerful collision of technology and creativity, opening a new chapter in the era of advertising!",
+    title2: "King Qian's Tidal Shot - A Cultural Promotional Film for Zhejiang Intangible Cultural Heritage Museum",
     description2:
+      "\"I shall select three hundred soldiers and craft three thousand arrows. Follow me to shoot the tide, and we shall end this calamity!\" Using the latest AIGC digital technology to truly bring traditional intangible cultural heritage to life! Zhejiang Intangible Cultural Heritage Museum, FizzDragon, and Boiling Universe Films jointly present China's first \"Intangible Cultural Heritage AIGC\" promotional film! Igniting a thousand-year legend with AIGC, recreating the magnificent epic of \"King Qian's Tidal Shot\". AI revives the beauty of intangible cultural heritage, paying tribute to the soul of Chinese culture.",
+    title3: "Shaanxi International Trust Commemorative Video",
+    description3:
       "\"Building Trust with Integrity, Serving Thousands of Families.\" FizzDragon exclusively presents an AIGC promotional video commemorating Shaanxi International Trust's 30th listing anniversary and 40th founding anniversary.",
-    title3: "AIGC Youth Education Team Creative Shampoo Commercial",
-    description3: "AI-empowered, bringing fresh creativity to 'washing'!",
-    title4: "Vietnamese Advertisement",
-    description4:
-      "A little girl wearing a traditional Vietnamese conical hat and a white dress is at the center of the story. She not only embodies the essence of Vietnamese culture but also blends with the magic world of Disney, combining local culture with globally renowned IPs to create a unique resonance. Through this image design, the audience will feel a sense of familiarity and freshness, perfectly blending the girl's innocence with the charm of Disney characters.",
-    title5: "Singapore 'New' IP Promotional Film",
+    title4: "AIGC Youth Education Team Creative Shampoo Commercial",
+    description4: "AI-empowered, bringing fresh creativity to 'washing'!",
+    title5: "Vietnamese Advertisement",
     description5:
-      "The Singapore 'New' IP promotional film is full of modern and futuristic elements, showcasing a vibrant global city. High-rise buildings and bustling cityscapes are interspersed with creative shots, highlighting Singapore's leading position in smart cities, green technology, and multiculturalism. Innovators, entrepreneurs, and artists from all over the world gather in this city, portraying a future metropolis centered on openness, innovation, and sustainable development, attracting global attention.",
-    title6: "Massage Chair Advertisement",
+      "A little girl wearing a traditional Vietnamese conical hat and a white dress is at the center of the story. She not only embodies the essence of Vietnamese culture but also blends with the magic world of Disney, combining local culture with globally renowned IPs to create a unique resonance. Through this image design, the audience will feel a sense of familiarity and freshness, perfectly blending the girl's innocence with the charm of Disney characters.",
+    title6: "Singapore 'New' IP Promotional Film",
     description6:
-      "Whether you're on a long flight or relaxing at home, the massage chair, through its gentle massage modes and multiple adjustment options, helps relieve muscle fatigue, reduce stress, and allows you to feel the warmth and comfort of home even in the clouds. Coupled with the tranquil cabin environment, you will experience an unprecedented sense of ease and tranquility. The massage chair accompanies you as you soar through the sky, enjoying every moment of relaxation!",
-    title7: "Law Universe Advertisement",
+      "The Singapore 'New' IP promotional film is full of modern and futuristic elements, showcasing a vibrant global city. High-rise buildings and bustling cityscapes are interspersed with creative shots, highlighting Singapore's leading position in smart cities, green technology, and multiculturalism. Innovators, entrepreneurs, and artists from all over the world gather in this city, portraying a future metropolis centered on openness, innovation, and sustainable development, attracting global attention.",
+    title7: "Massage Chair Advertisement",
     description7:
+      "Whether you're on a long flight or relaxing at home, the massage chair, through its gentle massage modes and multiple adjustment options, helps relieve muscle fatigue, reduce stress, and allows you to feel the warmth and comfort of home even in the clouds. Coupled with the tranquil cabin environment, you will experience an unprecedented sense of ease and tranquility. The massage chair accompanies you as you soar through the sky, enjoying every moment of relaxation!",
+    title8: "Law Universe Advertisement",
+    description8:
       "Global Premiere of the 'AI Digital Lawyer' Promotional Film: 'On the darkest day of my divorce, he stayed with me until dawn.' Your 24/7 'AI Digital Legal Consultant,' anytime, anywhere, available for chat, completely free, more professional, more immediate, and more supportive!!!",
   },
   faq: {
