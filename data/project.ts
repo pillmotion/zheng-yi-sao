@@ -194,6 +194,15 @@ export const page: Page = {
     description: "",
     items: [
       {
+        title: "《家乡美食，都在“浙”里浙江文旅宣传片》",
+        description: "家乡美食，都在“浙”里，浙江文旅宣传片，用AIGC技术，让浙江人文美景与浙江美食无缝衔接与完美融合！",
+        video: {
+          src: "/videos/zjms-mobile.mp4",
+          poster: "/imgs/zjms.png",
+          title: "The Birth of FizzDragon",
+        },
+      },
+      {
         title: "《“浙”里四季皆美景浙江文旅宣传片》",
         description: "“浙”里四季皆美景，“浙”里四季皆可游！浙江文旅宣传片，用AIGC技术，将浙江四季美景，以全新的方式展现给世界！",
         video: {
