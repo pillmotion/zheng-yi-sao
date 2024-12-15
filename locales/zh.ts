@@ -5,7 +5,7 @@ export default {
     title3: "郑一嫂专题页",
   },
   hero: {
-    title: "沸腾宇宙项目库",
+    title: "FizzDragon项目库",
     description: "这里，每个人都是讲故事的人，每个故事都会沸腾。",
     button1: "点击跳转官网",
   },
