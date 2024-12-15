@@ -124,5 +124,9 @@ export default {
     news1: "Zero Film Background: Engineer Creates the World's First AI Chinese Feature Film",
     news2: "Morning Light | Morning Focus: The Rise of AI-Produced Film and Television Works with Lower Production Costs",
     news3: "Singapore’s Epic Quest to Harness AI",
+    news4: "The West Lake Digital Art AI Industrial Park Opens Today, Establishing Zhejiang Province's First Digital Art AI Industrialization Ecosystem Platform",
+    news5: "Global Collaboration for AIGC Development: West Lake Digital Art AI Industrial Park Opens Today",
+    news6: "Linking University Resources to Traditional Industries: The West Lake Digital Art AI Industrial Park Officially Opens",
+    news7: "On-site: The West Lake Digital Art AI Industrial Park Opens Today, Establishing Zhejiang Province's First Digital Art AI Industrialization Ecosystem Platform",
   },
 } as const;

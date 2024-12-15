@@ -4,6 +4,16 @@
 import LianheLogo from "@/public/imgs/lianhe-logo.svg";
 import NewsLogo from "@/public/imgs/new-logo-news.svg";
 import BloombergLogo from "@/public/imgs/New_Bloomberg_Logo.svg";
+import XuexiLogo from "@/public/imgs/Xuexi_Logo.png";
+import YangshiLogo from "@/public/imgs/Yangshi_Logo.png";
+import PeopleLogo from "@/public/imgs/People_Logo.svg";
+import ZhejiangLogo from "@/public/imgs/zhejing_Logo.png";
+import iFengLogo from "@/public/imgs/ifeng_Logo.png";
+import ZhejiangTvLogo from "@/public/imgs/zhejiang_tv_Logo.png";
+import HangzhouLogo from "@/public/imgs/hangzhou_Logo.png";
+import PeopleRongLogo from "@/public/imgs/People_rong_Logo.png";
+import HZRBLogo from "@/public/imgs/hzrb_Logo.png";
+import XihuLogo from "@/public/imgs/xihu_Logo.png";
 import Image from "next/image";
 import { useScopedI18n } from "@/locales/client";
 
@@ -24,6 +34,56 @@ export default function Media() {
       logo: BloombergLogo, // 使用导入的 SVG
       title: t("news3"),
       url: "https://www.bloomberg.com/news/newsletters/2024-10-12/openai-singapore-office-to-boost-city-s-artificial-intelligence-ambitions",
+    },
+    {
+      logo: XuexiLogo, // 使用导入的 SVG
+      title: t("news4"),
+      url: "https://article.xuexi.cn/articles/index.html?art_id=5305876043339585729&item_id=5305876043339585729&study_style_id=feeds_opaque&pid=&ptype=-1&source=share&share_to=wx_single",
+    },
+    {
+      logo: YangshiLogo, // 使用导入的 SVG
+      title: t("news4"),
+      url: "https://m.yangshipin.cn/portrait_video?vid=e0000437uhk&pageContext=btype%3Dforum%26cpid%3D18239546166405164%26ctype%3Dcpid%26from%3D100013%26state%3Dinit%26ts%3D1733903933%26vid%3De0000437uhk",
+    },
+    {
+      logo: PeopleLogo, // 使用导入的 SVG
+      title: t("news4"),
+      url: "https://www.peopleapp.com/rmharticle/30047663590",
+    },
+    {
+      logo: ZhejiangLogo, // 使用导入的 SVG
+      title: t("news4"),
+      url: "https://wap.cztv.com/articles/index.html?pubId=2395682",
+    },
+    {
+      logo: iFengLogo, // 使用导入的 SVG
+      title: t("news4"),
+      url: "https://ishare.ifeng.com/c/s/8fE7Wb5e4TG?spss=np&channelId=&aman=7eWf6cBa25ua49554bP1b3Dd24a2b3kfecQ8b6u81f",
+    },
+    {
+      logo: ZhejiangTvLogo, // 使用导入的 SVG
+      title: t("news7"),
+      url: "https://wap.cztv.com/tv/44/2396160.html?play=1",
+    },
+    {
+      logo: HangzhouLogo, // 使用导入的 SVG
+      title: t("news5"),
+      url: "https://page.kaiba315.com.cn/neo-news/video-episode-clip?articleId=67583ffb8c8a3e037bcca8dd",
+    },
+    {
+      logo: PeopleRongLogo, // 使用导入的 SVG
+      title: t("news4"),
+      url: "https://www.bjrbrm.cn/sh/show-84069.html",
+    },
+    {
+      logo: HZRBLogo, // 使用导入的 SVG
+      title: t("news6"),
+      url: "https://apiv4.cst123.cn/cst/news/shareDetail?id=1051821658425262080&ic=evkb",
+    },
+    {
+      logo: XihuLogo, // 使用导入的 SVG
+      title: t("news4"),
+      url: "https://mp.weixin.qq.com/s/b3dtiIPcHaxNVpuUEHfPZg",
     },
   ];
 
