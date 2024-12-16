@@ -395,6 +395,21 @@ export const page: Page = {
             },
           ],
         },
+        {
+          title: "Partners",
+          children: [
+            {
+              title: "Chongqing University of International Business and Economics",
+              url: "https://www.ccibe.edu.cn/",
+              target: "_blank",
+            },
+            {
+              title: "Zhejiang Provincial Department of Culture, Radio, Television, and Tourism",
+              url: "https://ct.zj.gov.cn/",
+              target: "_blank",
+            },
+          ],
+        },
       ],
     },
   },

@@ -1,6 +1,6 @@
 "use client";
 
-import { Youtube, Instagram } from "lucide-react";
+import { Instagram, Youtube } from "lucide-react";
 import { Footer, Item } from "@/types/landing";
 import { useScopedI18n } from "@/locales/client";
 
@@ -18,17 +18,19 @@ export default function ({ footer }: { footer: Footer }) {
 
   return (
     <footer className="bg-background border-t">
-      <div className="max-w-7xl mx-auto px-6 py-8">
-        <div className="flex flex-wrap">
-          {/* Newsletter */}
+      <div className="max-w-7xl mx-auto px-6 py-12">
+        <div className="flex flex-wrap gap-y-8">
+          {/* Brand */}
           {footer.brand && footer.brand.title && (
-            <div className="w-full md:w-1/2 text-center md:text-left px-8">
+            <div className="w-full md:w-1/3 text-center md:text-left px-8">
               <img
                 src="/imgs/footer.jpg"
                 alt="footer"
                 className="h-[104px] w-auto"
               />
-              <div className="flex flex-col">{footer.brand.description}</div>
+              <div className="flex flex-col mt-4">
+                {footer.brand.description}
+              </div>
             </div>
           )}
 
@@ -36,21 +38,24 @@ export default function ({ footer }: { footer: Footer }) {
             const titleKey = `title${idx + 1}` as keyof typeof t;
             return (
               <div
-                className="w-full md:w-1/4 text-center md:text-left px-8"
+                className="w-full md:w-1/5 text-center md:text-left px-8"
                 key={idx}
               >
-                <p className="uppercase mb-6 font-bold">{t(titleKey)}</p>
-                <ul className="mb-4">
+                <p className="uppercase mb-6 font-bold text-sm">
+                  {t(titleKey)}
+                </p>
+                <ul className="mb-4 space-y-3">
                   {v.children?.map((item: Item, i) => {
                     const translationKey = `title${idx + 1}_${
                       i + 1
                     }` as keyof typeof t;
                     return (
-                      <li className="mt-2" key={i}>
+                      <li key={i}>
                         <a
                           href={item.url}
                           target={item.target}
-                          className="hover:underline text-gray-600 hover:text-gray-800"
+                          className="hover:underline text-gray-600 hover:text-gray-800 line-clamp-2 text-sm"
+                          title={t(translationKey) || item.title}
                         >
                           {t(translationKey) || item.title}
                         </a>

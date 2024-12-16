@@ -112,6 +112,9 @@ export default {
     title2: "联系我们",
     title2_1: "+65 8132 3869",
     title2_2: "business@fizzdragon.com",
+    title3: "合作伙伴",
+    title3_1: "重庆对外经贸大学",
+    title3_2: "浙江省文化广电和旅游厅",
     footer: {
       copyright_prefix: "© 2024 • ",
       copyright_suffix: " 是依法受到法律保护的注册商标，任何人不得以任何形式，未经书面授权使用本商标，否则将依法追究法律责任。",

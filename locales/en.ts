@@ -114,6 +114,9 @@ export default {
     title2: "Contact Us",
     title2_1: "+65 8132 3869",
     title2_2: "business@fizzdragon.com",
+    title3: "Partners",
+    title3_1: "Chongqing University of International Business and Economics",
+    title3_2: "Zhejiang Provincial Department of Culture, Radio, Television, and Tourism",
     footer: {
       copyright_prefix: "© 2024 • ",
       copyright_suffix: " is a registered trademark protected by law. No one may use this trademark in any form without written authorization; otherwise, legal action will be pursued in accordance with the law.",
