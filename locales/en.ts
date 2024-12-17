@@ -120,6 +120,7 @@ export default {
     footer: {
       copyright_prefix: "© 2024 • ",
       copyright_suffix: " is a registered trademark protected by law. No one may use this trademark in any form without written authorization; otherwise, legal action will be pursued in accordance with the law.",
+      badge_text: "AIGC projects in Mainland China are provided by Boiling Universe (Shenzhen) Film and Television Co., Ltd. to comply with Chinese legal regulations.",
     },
   },
   media: {

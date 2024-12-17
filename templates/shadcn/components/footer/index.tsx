@@ -101,7 +101,11 @@ export default function ({ footer }: { footer: Footer }) {
             </span>
             {t("footer.copyright_suffix")}
           </p>
-          {!footer.badge_disabled}
+          {!footer.badge_disabled && (
+            <p className="text-base text-gray-400">
+              {t("footer.badge_text")}
+            </p>
+          )}
         </div>
       </div>
     </footer>

@@ -118,6 +118,7 @@ export default {
     footer: {
       copyright_prefix: "© 2024 • ",
       copyright_suffix: " 是依法受到法律保护的注册商标，任何人不得以任何形式，未经书面授权使用本商标，否则将依法追究法律责任。",
+      badge_text: "中国境内的AIGC项目由沸腾宇宙（深圳）影业有限公司提供技术支持，以符合中国法律监管要求",
     },
   },
   media: {

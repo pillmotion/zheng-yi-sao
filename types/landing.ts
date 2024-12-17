@@ -69,6 +69,7 @@ export interface Footer {
   buttons?: Button[];
   disabled?: boolean;
   badge_disabled?: boolean;
+  badge_text?: string;
 }
 
 export interface Nav {
