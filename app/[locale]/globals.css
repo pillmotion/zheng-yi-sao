@@ -90,3 +90,7 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.pause-on-hover:hover .animate-marquee {
+  animation-play-state: paused;
+}

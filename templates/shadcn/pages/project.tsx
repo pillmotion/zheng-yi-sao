@@ -12,11 +12,13 @@ import Section from "../components/section";
 import Testimonial from "../components/testimonial";
 import Usercase from "../components/usercase";
 import Media from "../components/media";
+import NewsTicker from "../components/NewsTicker";
 
 export default function ({ page }: { page: Page }) {
   return (
     <>
       {page.header && <Header header={page.header} />}
+      <NewsTicker />
       {page.hero && <Hero hero={page.hero} />}
       {page.usercase && <Usercase section={page.usercase} />}
       {page.section && <Section section={page.section} />}

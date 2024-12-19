@@ -291,6 +291,12 @@ export const page: Page = {
     items: [
       {
         title:
+          "“学员招募｜快来参与“FizzDragon—南艺”AIGC新锐影像工作坊",
+        description: "",
+        url: "https://mp.weixin.qq.com/s/gMWE4S-7fNKzqBDJxJ_-0w",
+      },
+      {
+        title:
           "FizzDragon×星辰杯系列赛事组委会|关于征集科幻小小说作品AIGC共创改编的启事",
         description: "",
         url: "https://mp.weixin.qq.com/s/5n71NDiSfgNtOOVMAUWk_w",

@@ -4,6 +4,18 @@ export default {
     title2: "AIGC全球电影启动平台",
     title3: "郑一嫂专题页",
   },
+  news: {
+    title: "最新消息",
+    title1: "学员招募｜快来参与“FizzDragon—南艺”AIGC新锐影像工作坊",
+    title2: "新的一程，从西湖国际数字艺术AI产业园出发",
+    title3: "FizzDragon中国高校AIGC智能影像工作坊第一站实况揭秘",
+    hot: "热门",
+    new: "最新",
+    update: "更新",
+    movie: "电影",    // 新增
+    tech: "技术",     // 新增
+    finance: "财经"   // 新增
+  },
   hero: {
     title: "沸腾宇宙项目库",
     description: "这里，每个人都是讲故事的人，每个故事都会沸腾。",
@@ -82,17 +94,19 @@ export default {
   faq: {
     title: "更多资讯",
     title1:
+      "学员招募｜快来参与“FizzDragon—南艺”AIGC新锐影像工作坊",
+    title2:
       "FizzDragon×星辰杯系列赛事组委会|关于征集科幻小小说作品AIGC共创改编的启事",
-    title2: "FizzDragon×《易漫》|AIGC打造“东方迪士尼”神话",
-    title3:
-      "沸腾宇宙AIGC电影实验室 | 用拼图的方式拍电影？全网征集10000张照片，挑战想象力叙事极限",
+    title3: "FizzDragon×《易漫》|AIGC打造“东方迪士尼”神话",
     title4:
+      "沸腾宇宙AIGC电影实验室 | 用拼图的方式拍电影？全网征集10000张照片，挑战想象力叙事极限",
+    title5:
       "签约专栏｜科幻小说大赛一等奖得主邵子岐与FizzDragon独家签约推出“AIGC版天算”，推动科幻小说走向AIGC影视化",
-    title5: "最新3分钟｜“她是谁？”“她，是新帮主，是红旗帮的新女王！",
-    title6:
+    title6: "最新3分钟｜“她是谁？”“她，是新帮主，是红旗帮的新女王！",
+    title7:
       "签约专栏｜追光之旅！华语科幻星云奖年度新星暨科幻小说《极光之歌》作者“汪小海”与FizzDragon签约",
-    title7: "Pax有话说——让好故事发生，且发声",
-    title8:
+    title8: "Pax有话说——让好故事发生，且发声",
+    title9:
       "签约专栏｜当地球沸腾！“娘子关杯”一等奖得主暨科幻小说《重生之愿》作者王云轩与FizzDragon签约",
   },
   cta: {
