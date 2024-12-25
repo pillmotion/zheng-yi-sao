@@ -153,8 +153,8 @@ export const page: Page = {
           src: "/imgs/feature7.png",
         },
         button: {
-          title: "即将上线",
-          url: "",
+          title: "点击观看",
+          url: "https://fizzdragon.com/movie/tales-of-ryukyu/",
           target: "_blank",
         },
       },
