@@ -62,34 +62,37 @@ export default {
   },
   testimonial: {
     title: "Commercial Advertisement",
-    title1: "Hometown Delicacies, All in 'Zhe' - Zhejiang Tourism Promotion Video",
+    title1: "Global First Historical Shipwreck AIGC Promotional Film",
     description1:
-      "Hometown delicacies, all in 'Zhe.' This Zhejiang tourism promotion video uses AIGC technology to seamlessly connect and perfectly blend Zhejiang's cultural landscapes with its culinary delights!",
-    title2: "“Seasons of Beauty in Zhejiang” - A Promotional Video for Zhejiang's Culture and Tourism",
+      "Through the latest global AIGC digital technology, FizzDragon has 'revived' the former glory of the Black Stone Ship, using technology to draw audiences into history and reality. The cultural relics from the deep sea, particularly the Jiangxin Mirror, shine brilliantly displaying the prosperity of the Tang Dynasty. The magnificent dance at the palace's ancient painting banquet, and then moving to another scene, brings the audience's perspective into the scene of craftsmen creating porcelain...",
+    title2: "Hometown Delicacies, All in 'Zhe' - Zhejiang Tourism Promotion Video",
     description2:
-      "“Seasons of Beauty in Zhejiang, Travel Anytime in Zhejiang!” A promotional video for Zhejiang's culture and tourism uses AIGC technology to showcase the breathtaking landscapes of Zhejiang's four seasons in a whole new way to the world!",
-    title3: "AI Marketing New Productivity Co-creation Platform for China's Advertising Industry",
+      "Hometown delicacies, all in 'Zhe.' This Zhejiang tourism promotion video uses AIGC technology to seamlessly connect and perfectly blend Zhejiang's cultural landscapes with its culinary delights!",
+    title3: "“Seasons of Beauty in Zhejiang” - A Promotional Video for Zhejiang's Culture and Tourism",
     description3:
-      "AIGC Ignites Creativity: Infinite Possibilities in the New Era of Advertising! At the 31st China International Advertising Festival, the China Advertising Association, Blue Focus, Baidu, Leo Digital, Tencent, and FizzDragon jointly launched the 'AI Marketing New Productivity Co-creation Platform for China's Advertising Industry'! This is a powerful collision of technology and creativity, opening a new chapter in the era of advertising!",
-    title4: "King Qian's Tidal Shot - A Cultural Promotional Film for Zhejiang Intangible Cultural Heritage Museum",
+      "“Seasons of Beauty in Zhejiang, Travel Anytime in Zhejiang!” A promotional video for Zhejiang's culture and tourism uses AIGC technology to showcase the breathtaking landscapes of Zhejiang's four seasons in a whole new way to the world!",
+    title4: "AI Marketing New Productivity Co-creation Platform for China's Advertising Industry",
     description4:
-      "\"I shall select three hundred soldiers and craft three thousand arrows. Follow me to shoot the tide, and we shall end this calamity!\" Using the latest AIGC digital technology to truly bring traditional intangible cultural heritage to life! Zhejiang Intangible Cultural Heritage Museum, FizzDragon, and Boiling Universe Films jointly present China's first \"Intangible Cultural Heritage AIGC\" promotional film! Igniting a thousand-year legend with AIGC, recreating the magnificent epic of \"King Qian's Tidal Shot\". AI revives the beauty of intangible cultural heritage, paying tribute to the soul of Chinese culture.",
-    title5: "Shaanxi International Trust Commemorative Video",
+      "AIGC Ignites Creativity: Infinite Possibilities in the New Era of Advertising! At the 31st China International Advertising Festival, the China Advertising Association, Blue Focus, Baidu, Leo Digital, Tencent, and FizzDragon jointly launched the 'AI Marketing New Productivity Co-creation Platform for China's Advertising Industry'! This is a powerful collision of technology and creativity, opening a new chapter in the era of advertising!",
+    title5: "King Qian's Tidal Shot - A Cultural Promotional Film for Zhejiang Intangible Cultural Heritage Museum",
     description5:
+      "\"I shall select three hundred soldiers and craft three thousand arrows. Follow me to shoot the tide, and we shall end this calamity!\" Using the latest AIGC digital technology to truly bring traditional intangible cultural heritage to life! Zhejiang Intangible Cultural Heritage Museum, FizzDragon, and Boiling Universe Films jointly present China's first \"Intangible Cultural Heritage AIGC\" promotional film! Igniting a thousand-year legend with AIGC, recreating the magnificent epic of \"King Qian's Tidal Shot\". AI revives the beauty of intangible cultural heritage, paying tribute to the soul of Chinese culture.",
+    title6: "Shaanxi International Trust Commemorative Video",
+    description6:
       "\"Building Trust with Integrity, Serving Thousands of Families.\" FizzDragon exclusively presents an AIGC promotional video commemorating Shaanxi International Trust's 30th listing anniversary and 40th founding anniversary.",
-    title6: "AIGC Youth Education Team Creative Shampoo Commercial",
-    description6: "AI-empowered, bringing fresh creativity to 'washing'!",
-    title7: "Vietnamese Advertisement",
-    description7:
-      "A little girl wearing a traditional Vietnamese conical hat and a white dress is at the center of the story. She not only embodies the essence of Vietnamese culture but also blends with the magic world of Disney, combining local culture with globally renowned IPs to create a unique resonance. Through this image design, the audience will feel a sense of familiarity and freshness, perfectly blending the girl's innocence with the charm of Disney characters.",
-    title8: "Singapore 'New' IP Promotional Film",
+    title7: "AIGC Youth Education Team Creative Shampoo Commercial",
+    description7: "AI-empowered, bringing fresh creativity to 'washing'!",
+    title8: "Vietnamese Advertisement",
     description8:
-      "The Singapore 'New' IP promotional film is full of modern and futuristic elements, showcasing a vibrant global city. High-rise buildings and bustling cityscapes are interspersed with creative shots, highlighting Singapore's leading position in smart cities, green technology, and multiculturalism. Innovators, entrepreneurs, and artists from all over the world gather in this city, portraying a future metropolis centered on openness, innovation, and sustainable development, attracting global attention.",
-    title9: "Massage Chair Advertisement",
+      "A little girl wearing a traditional Vietnamese conical hat and a white dress is at the center of the story. She not only embodies the essence of Vietnamese culture but also blends with the magic world of Disney, combining local culture with globally renowned IPs to create a unique resonance. Through this image design, the audience will feel a sense of familiarity and freshness, perfectly blending the girl's innocence with the charm of Disney characters.",
+    title9: "Singapore 'New' IP Promotional Film",
     description9:
-      "Whether you're on a long flight or relaxing at home, the massage chair, through its gentle massage modes and multiple adjustment options, helps relieve muscle fatigue, reduce stress, and allows you to feel the warmth and comfort of home even in the clouds. Coupled with the tranquil cabin environment, you will experience an unprecedented sense of ease and tranquility. The massage chair accompanies you as you soar through the sky, enjoying every moment of relaxation!",
-    title10: "Law Universe Advertisement",
+      "The Singapore 'New' IP promotional film is full of modern and futuristic elements, showcasing a vibrant global city. High-rise buildings and bustling cityscapes are interspersed with creative shots, highlighting Singapore's leading position in smart cities, green technology, and multiculturalism. Innovators, entrepreneurs, and artists from all over the world gather in this city, portraying a future metropolis centered on openness, innovation, and sustainable development, attracting global attention.",
+    title10: "Massage Chair Advertisement",
     description10:
+      "Whether you're on a long flight or relaxing at home, the massage chair, through its gentle massage modes and multiple adjustment options, helps relieve muscle fatigue, reduce stress, and allows you to feel the warmth and comfort of home even in the clouds. Coupled with the tranquil cabin environment, you will experience an unprecedented sense of ease and tranquility. The massage chair accompanies you as you soar through the sky, enjoying every moment of relaxation!",
+    title11: "Law Universe Advertisement",
+    description11:
       "Global Premiere of the 'AI Digital Lawyer' Promotional Film: 'On the darkest day of my divorce, he stayed with me until dawn.' Your 24/7 'AI Digital Legal Consultant,' anytime, anywhere, available for chat, completely free, more professional, more immediate, and more supportive!!!",
   },
   faq: {

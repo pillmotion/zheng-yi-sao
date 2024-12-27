@@ -194,6 +194,15 @@ export const page: Page = {
     description: "",
     items: [
       {
+        title: "《全球首个历史沉船AIGC推广宣传片》",
+        description: "FizzDragon通过全球最新的AIGC数字技术，“复活”了黑石号的昔日荣光，用科技把观众拉入历史与现实，海底深处的文物江心镜闪闪发光展示出了大唐的盛世，宫殿中的古画宴会上美轮美奂的舞蹈，再移步换景，将观众的视角带入到匠人打造瓷器的场景中……",
+        video: {
+          src: "/videos/heh-mobile.mp4",
+          poster: "/imgs/heh.png",
+          title: "The Birth of FizzDragon",
+        },
+      },
+      {
         title: "《家乡美食，都在“浙”里浙江文旅宣传片》",
         description: "家乡美食，都在“浙”里，浙江文旅宣传片，用AIGC技术，让浙江人文美景与浙江美食无缝衔接与完美融合！",
         video: {
