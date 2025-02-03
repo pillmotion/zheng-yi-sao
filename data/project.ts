@@ -194,6 +194,15 @@ export const page: Page = {
     description: "",
     items: [
       {
+        title: "《穿越时空的团圆：FizzDragon制作的全国首部“春节AIGC”登陆全国高铁》",
+        description: "全国首个“春节AIGC”上线！！！春节前夕，中国“春节”成功被联合国教科文组织列入人类非物质文化遗产。如何用最新的AIGC数字技术来展示传承了几千年历史与文化的中国春节？浙江省非物质文化遗产馆、FizzDragon、沸腾宇宙影业联合出品了全国首个“春节AIGC”：100%AI制作和驱动、近千个AIGC镜头一镜到底，让春节通过AIGC数字技术更亲切更生动更温暖，让我们一起祝福浓浓的中国年！！！",
+        video: {
+          src: "/videos/chunjie-mobile.mp4",
+          poster: "/imgs/chunjie.png",
+          title: "The Birth of FizzDragon",
+        },
+      },
+      {
         title: "《全球首个历史沉船AIGC推广宣传片》",
         description: "FizzDragon通过全球最新的AIGC数字技术，“复活”了黑石号的昔日荣光，用科技把观众拉入历史与现实，海底深处的文物江心镜闪闪发光展示出了大唐的盛世，宫殿中的古画宴会上美轮美奂的舞蹈，再移步换景，将观众的视角带入到匠人打造瓷器的场景中……",
         video: {
@@ -298,6 +307,12 @@ export const page: Page = {
     title: "更多资讯",
     description: "",
     items: [
+      {
+        title:
+          "AI赋能传统，春节焕新颜——AIGC浙江春节宣传短片登陆全国高铁！",
+        description: "",
+        url: "https://mp.weixin.qq.com/s/FRdg7B9ELv8xOVqt9Q4l5w",
+      },
       {
         title:
           "“学员招募｜快来参与“FizzDragon—南艺”AIGC新锐影像工作坊",

@@ -6,9 +6,10 @@ export default {
   },
   news: {
     title: "Latest News",
-    title1: "Recruitment for Participants｜Join the “FizzDragon—Nanjing University of the Arts” AIGC Innovative Image Workshop",
-    title2: "New Journey, Starting from the West Lake Digital Art AI Industrial Park",
-    title3: "FizzDragon China AIGC Smart Image Workshop First Stop Reveal",
+    title1: "AI Fuels Tradition, Spring Festival Resurrects! AIGC Zhejiang Spring Festival Promotion Short Film Lands on National High-Speed Railways!",
+    title2: "Recruitment for Participants｜Join the “FizzDragon—Nanjing University of the Arts” AIGC Innovative Image Workshop",
+    title3: "New Journey, Starting from the West Lake Digital Art AI Industrial Park",
+    title4: "FizzDragon China AIGC Smart Image Workshop First Stop Reveal",
     hot: "HOT",
     new: "NEW",
     update: "UPDATE",
@@ -62,56 +63,61 @@ export default {
   },
   testimonial: {
     title: "Commercial Advertisement",
-    title1: "Global First Historical Shipwreck AIGC Promotional Film",
+    title1: "A Time-Traveling Reunion: China's First 'Spring Festival AIGC' Launches Nationwide on High-Speed Railways",
     description1:
-      "Through the latest global AIGC digital technology, FizzDragon has 'revived' the former glory of the Black Stone Ship, using technology to draw audiences into history and reality. The cultural relics from the deep sea, particularly the Jiangxin Mirror, shine brilliantly displaying the prosperity of the Tang Dynasty. The magnificent dance at the palace's ancient painting banquet, and then moving to another scene, brings the audience's perspective into the scene of craftsmen creating porcelain...",
-    title2: "Hometown Delicacies, All in 'Zhe' - Zhejiang Tourism Promotion Video",
+      "China's first 'Spring Festival AIGC' goes live!!! On the eve of Spring Festival, Chinese 'Spring Festival' was successfully inscribed on UNESCO's List of Intangible Cultural Heritage of Humanity. How can we use the latest AIGC digital technology to showcase China's Spring Festival, a celebration with thousands of years of history and culture? The Zhejiang Intangible Cultural Heritage Museum, FizzDragon, and Boiling Universe Films have jointly produced the nation's first 'Spring Festival AIGC': 100% AI-produced and driven, with nearly a thousand AIGC shots in one continuous take, making Spring Festival more intimate, vivid, and warm through AIGC digital technology. Let's celebrate together the rich traditions of Chinese New Year!!!",
+    title2: "Global First Historical Shipwreck AIGC Promotional Film",
     description2:
-      "Hometown delicacies, all in 'Zhe.' This Zhejiang tourism promotion video uses AIGC technology to seamlessly connect and perfectly blend Zhejiang's cultural landscapes with its culinary delights!",
-    title3: "“Seasons of Beauty in Zhejiang” - A Promotional Video for Zhejiang's Culture and Tourism",
+      "Through the latest global AIGC digital technology, FizzDragon has 'revived' the former glory of the Black Stone Ship, using technology to draw audiences into history and reality. The cultural relics from the deep sea, particularly the Jiangxin Mirror, shine brilliantly displaying the prosperity of the Tang Dynasty. The magnificent dance at the palace's ancient painting banquet, and then moving to another scene, brings the audience's perspective into the scene of craftsmen creating porcelain...",
+    title3: "Hometown Delicacies, All in 'Zhe' - Zhejiang Tourism Promotion Video",
     description3:
-      "“Seasons of Beauty in Zhejiang, Travel Anytime in Zhejiang!” A promotional video for Zhejiang's culture and tourism uses AIGC technology to showcase the breathtaking landscapes of Zhejiang's four seasons in a whole new way to the world!",
-    title4: "AI Marketing New Productivity Co-creation Platform for China's Advertising Industry",
+      "Hometown delicacies, all in 'Zhe.' This Zhejiang tourism promotion video uses AIGC technology to seamlessly connect and perfectly blend Zhejiang's cultural landscapes with its culinary delights!",
+    title4: "“Seasons of Beauty in Zhejiang” - A Promotional Video for Zhejiang's Culture and Tourism",
     description4:
-      "AIGC Ignites Creativity: Infinite Possibilities in the New Era of Advertising! At the 31st China International Advertising Festival, the China Advertising Association, Blue Focus, Baidu, Leo Digital, Tencent, and FizzDragon jointly launched the 'AI Marketing New Productivity Co-creation Platform for China's Advertising Industry'! This is a powerful collision of technology and creativity, opening a new chapter in the era of advertising!",
-    title5: "King Qian's Tidal Shot - A Cultural Promotional Film for Zhejiang Intangible Cultural Heritage Museum",
+      "“Seasons of Beauty in Zhejiang, Travel Anytime in Zhejiang!” A promotional video for Zhejiang's culture and tourism uses AIGC technology to showcase the breathtaking landscapes of Zhejiang's four seasons in a whole new way to the world!",
+    title5: "AI Marketing New Productivity Co-creation Platform for China's Advertising Industry",
     description5:
-      "\"I shall select three hundred soldiers and craft three thousand arrows. Follow me to shoot the tide, and we shall end this calamity!\" Using the latest AIGC digital technology to truly bring traditional intangible cultural heritage to life! Zhejiang Intangible Cultural Heritage Museum, FizzDragon, and Boiling Universe Films jointly present China's first \"Intangible Cultural Heritage AIGC\" promotional film! Igniting a thousand-year legend with AIGC, recreating the magnificent epic of \"King Qian's Tidal Shot\". AI revives the beauty of intangible cultural heritage, paying tribute to the soul of Chinese culture.",
-    title6: "Shaanxi International Trust Commemorative Video",
+      "AIGC Ignites Creativity: Infinite Possibilities in the New Era of Advertising! At the 31st China International Advertising Festival, the China Advertising Association, Blue Focus, Baidu, Leo Digital, Tencent, and FizzDragon jointly launched the 'AI Marketing New Productivity Co-creation Platform for China's Advertising Industry'! This is a powerful collision of technology and creativity, opening a new chapter in the era of advertising!",
+    title6: "King Qian's Tidal Shot - A Cultural Promotional Film for Zhejiang Intangible Cultural Heritage Museum",
     description6:
+      "\"I shall select three hundred soldiers and craft three thousand arrows. Follow me to shoot the tide, and we shall end this calamity!\" Using the latest AIGC digital technology to truly bring traditional intangible cultural heritage to life! Zhejiang Intangible Cultural Heritage Museum, FizzDragon, and Boiling Universe Films jointly present China's first \"Intangible Cultural Heritage AIGC\" promotional film! Igniting a thousand-year legend with AIGC, recreating the magnificent epic of \"King Qian's Tidal Shot\". AI revives the beauty of intangible cultural heritage, paying tribute to the soul of Chinese culture.",
+    title7: "Shaanxi International Trust Commemorative Video",
+    description7:
       "\"Building Trust with Integrity, Serving Thousands of Families.\" FizzDragon exclusively presents an AIGC promotional video commemorating Shaanxi International Trust's 30th listing anniversary and 40th founding anniversary.",
-    title7: "AIGC Youth Education Team Creative Shampoo Commercial",
-    description7: "AI-empowered, bringing fresh creativity to 'washing'!",
-    title8: "Vietnamese Advertisement",
-    description8:
-      "A little girl wearing a traditional Vietnamese conical hat and a white dress is at the center of the story. She not only embodies the essence of Vietnamese culture but also blends with the magic world of Disney, combining local culture with globally renowned IPs to create a unique resonance. Through this image design, the audience will feel a sense of familiarity and freshness, perfectly blending the girl's innocence with the charm of Disney characters.",
-    title9: "Singapore 'New' IP Promotional Film",
+    title8: "AIGC Youth Education Team Creative Shampoo Commercial",
+    description8: "AI-empowered, bringing fresh creativity to 'washing'!",
+    title9: "Vietnamese Advertisement",
     description9:
-      "The Singapore 'New' IP promotional film is full of modern and futuristic elements, showcasing a vibrant global city. High-rise buildings and bustling cityscapes are interspersed with creative shots, highlighting Singapore's leading position in smart cities, green technology, and multiculturalism. Innovators, entrepreneurs, and artists from all over the world gather in this city, portraying a future metropolis centered on openness, innovation, and sustainable development, attracting global attention.",
-    title10: "Massage Chair Advertisement",
+      "A little girl wearing a traditional Vietnamese conical hat and a white dress is at the center of the story. She not only embodies the essence of Vietnamese culture but also blends with the magic world of Disney, combining local culture with globally renowned IPs to create a unique resonance. Through this image design, the audience will feel a sense of familiarity and freshness, perfectly blending the girl's innocence with the charm of Disney characters.",
+    title10: "Singapore 'New' IP Promotional Film",
     description10:
-      "Whether you're on a long flight or relaxing at home, the massage chair, through its gentle massage modes and multiple adjustment options, helps relieve muscle fatigue, reduce stress, and allows you to feel the warmth and comfort of home even in the clouds. Coupled with the tranquil cabin environment, you will experience an unprecedented sense of ease and tranquility. The massage chair accompanies you as you soar through the sky, enjoying every moment of relaxation!",
-    title11: "Law Universe Advertisement",
+      "The Singapore 'New' IP promotional film is full of modern and futuristic elements, showcasing a vibrant global city. High-rise buildings and bustling cityscapes are interspersed with creative shots, highlighting Singapore's leading position in smart cities, green technology, and multiculturalism. Innovators, entrepreneurs, and artists from all over the world gather in this city, portraying a future metropolis centered on openness, innovation, and sustainable development, attracting global attention.",
+    title11: "Massage Chair Advertisement",
     description11:
+      "Whether you're on a long flight or relaxing at home, the massage chair, through its gentle massage modes and multiple adjustment options, helps relieve muscle fatigue, reduce stress, and allows you to feel the warmth and comfort of home even in the clouds. Coupled with the tranquil cabin environment, you will experience an unprecedented sense of ease and tranquility. The massage chair accompanies you as you soar through the sky, enjoying every moment of relaxation!",
+    title12: "Law Universe Advertisement",
+    description12:
       "Global Premiere of the 'AI Digital Lawyer' Promotional Film: 'On the darkest day of my divorce, he stayed with me until dawn.' Your 24/7 'AI Digital Legal Consultant,' anytime, anywhere, available for chat, completely free, more professional, more immediate, and more supportive!!!",
   },
   faq: {
     title: "More Information",
     title1:
-      "Recruitment for Participants｜Join the “FizzDragon—Nanjing University of the Arts” AIGC Innovative Image Workshop",
+      "AI Fuels Tradition, Spring Festival Resurrects! AIGC Zhejiang Spring Festival Promotion Short Film Lands on National High-Speed Railways!",
     title2:
+      "Recruitment for Participants｜Join the “FizzDragon—Nanjing University of the Arts” AIGC Innovative Image Workshop",
+    title3:
       "FizzDragon × Xingchen Cup Series Organizing Committee | Announcement for Collecting Sci-Fi Short Stories for AIGC Co-creation and Adaptation",
-    title3: "FizzDragon × Yiman | AIGC Creates the 'Oriental Disney' Myth",
-    title4:
-      "FizzDragon AIGC Film Lab | Making Movies Like Assembling a Puzzle? A Nationwide Call for 10,000 Photos, Challenging the Limits of Imaginative Storytelling",
+    title4: "FizzDragon × Yiman | AIGC Creates the 'Oriental Disney' Myth",
     title5:
-      "Exclusive Column | First Prize Winner of the Science Fiction Contest, Shao Ziqi, Signs Exclusive Deal with FizzDragon to Launch the 'AIGC Version of Heaven’s Calculation,' Paving the Way for Sci-Fi Novels to Enter AIGC Film Adaptation",
+      "FizzDragon AIGC Film Lab | Making Movies Like Assembling a Puzzle? A Nationwide Call for 10,000 Photos, Challenging the Limits of Imaginative Storytelling",
     title6:
-      "Latest 3 Minutes | 'Who is she?' 'She is the new leader, the new queen of the Red Flag Gang!'",
+      "Exclusive Column | First Prize Winner of the Science Fiction Contest, Shao Ziqi, Signs Exclusive Deal with FizzDragon to Launch the 'AIGC Version of Heaven’s Calculation,' Paving the Way for Sci-Fi Novels to Enter AIGC Film Adaptation",
     title7:
+      "Latest 3 Minutes | 'Who is she?' 'She is the new leader, the new queen of the Red Flag Gang!'",
+    title8:
       "Exclusive Column | Journey of Light! Chinese Nebula Award Rising Star and Author of the Sci-Fi Novel Aurora's Song, 'Wang Xiaohai,' Signs with FizzDragon",
-    title8: "Pax Speaks - Let Great Stories Happen and Be Heard",
-    title9:
+    title9: "Pax Speaks - Let Great Stories Happen and Be Heard",
+    title10:
       "Exclusive Column | When the Earth Boils! 'Niangziguan Cup' First Prize Winner and Author of the Sci-Fi Novel Wish of Rebirth, Wang Yunxuan, Signs with FizzDragon",
   },
   cta: {

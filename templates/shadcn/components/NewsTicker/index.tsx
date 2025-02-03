@@ -48,18 +48,24 @@ export default function NewsTicker() {
     {
       id: 1,
       text: t("title1"),
-      link: "https://mp.weixin.qq.com/s/gMWE4S-7fNKzqBDJxJ_-0w",
+      link: "https://mp.weixin.qq.com/s/FRdg7B9ELv8xOVqt9Q4l5w",
       type: NewsType.NEW,
     },
     {
       id: 2,
       text: t("title2"),
-      link: "https://mp.weixin.qq.com/s/kEbxs1DrNOdwdA5f-R574w",
-      type: NewsType.HOT,
+      link: "https://mp.weixin.qq.com/s/gMWE4S-7fNKzqBDJxJ_-0w",
+      type: NewsType.UPDATE,
     },
     {
       id: 3,
       text: t("title3"),
+      link: "https://mp.weixin.qq.com/s/kEbxs1DrNOdwdA5f-R574w",
+      type: NewsType.HOT,
+    },
+    {
+      id: 4,
+      text: t("title4"),
       link: "https://mp.weixin.qq.com/s/5aA_lL994KZ5NQBaxkspTw",
       type: NewsType.UPDATE,
     },
