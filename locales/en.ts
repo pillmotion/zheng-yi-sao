@@ -102,22 +102,24 @@ export default {
   faq: {
     title: "More Information",
     title1:
-      "AI Fuels Tradition, Spring Festival Resurrects! AIGC Zhejiang Spring Festival Promotion Short Film Lands on National High-Speed Railways!",
+      "Breaking News!!! FizzDragon Selected as Global Top 30 in Alibaba Entrepreneurs Fund's Jumpstarter Global Pitch Competition!!!",
     title2:
-      "Recruitment for Participants｜Join the “FizzDragon—Nanjing University of the Arts” AIGC Innovative Image Workshop",
+      "A Time-Traveling Reunion: China's First 'Spring Festival AIGC' Launches Nationwide on High-Speed Railways",
     title3:
+      "Recruitment for Participants｜Join the “FizzDragon—Nanjing University of the Arts” AIGC Innovative Image Workshop",
+    title4:
       "FizzDragon × Xingchen Cup Series Organizing Committee | Announcement for Collecting Sci-Fi Short Stories for AIGC Co-creation and Adaptation",
-    title4: "FizzDragon × Yiman | AIGC Creates the 'Oriental Disney' Myth",
-    title5:
-      "FizzDragon AIGC Film Lab | Making Movies Like Assembling a Puzzle? A Nationwide Call for 10,000 Photos, Challenging the Limits of Imaginative Storytelling",
+    title5: "FizzDragon × Yiman | AIGC Creates the 'Oriental Disney' Myth",
     title6:
-      "Exclusive Column | First Prize Winner of the Science Fiction Contest, Shao Ziqi, Signs Exclusive Deal with FizzDragon to Launch the 'AIGC Version of Heaven’s Calculation,' Paving the Way for Sci-Fi Novels to Enter AIGC Film Adaptation",
+      "FizzDragon AIGC Film Lab | Making Movies Like Assembling a Puzzle? A Nationwide Call for 10,000 Photos, Challenging the Limits of Imaginative Storytelling",
     title7:
-      "Latest 3 Minutes | 'Who is she?' 'She is the new leader, the new queen of the Red Flag Gang!'",
+      "Exclusive Column | First Prize Winner of the Science Fiction Contest, Shao Ziqi, Signs Exclusive Deal with FizzDragon to Launch the 'AIGC Version of Heaven’s Calculation,' Paving the Way for Sci-Fi Novels to Enter AIGC Film Adaptation",
     title8:
+      "Latest 3 Minutes | 'Who is she?' 'She is the new leader, the new queen of the Red Flag Gang!'",
+    title9:
       "Exclusive Column | Journey of Light! Chinese Nebula Award Rising Star and Author of the Sci-Fi Novel Aurora's Song, 'Wang Xiaohai,' Signs with FizzDragon",
-    title9: "Pax Speaks - Let Great Stories Happen and Be Heard",
-    title10:
+    title10: "Pax Speaks - Let Great Stories Happen and Be Heard",
+    title11:
       "Exclusive Column | When the Earth Boils! 'Niangziguan Cup' First Prize Winner and Author of the Sci-Fi Novel Wish of Rebirth, Wang Yunxuan, Signs with FizzDragon",
   },
   cta: {

@@ -309,9 +309,15 @@ export const page: Page = {
     items: [
       {
         title:
-          "AI赋能传统，春节焕新颜——AIGC浙江春节宣传短片登陆全国高铁！",
+          "重磅！！！FizzDragon入选阿里巴巴创业者基金Jumpstarter环球创业比赛路演“全球30强”！！！",
         description: "",
-        url: "https://mp.weixin.qq.com/s/FRdg7B9ELv8xOVqt9Q4l5w",
+        url: "https://mp.weixin.qq.com/s/T4ZXoUXtpyEnjjvPS9recw",
+      },
+      {
+        title:
+          "穿越时空的团圆：FizzDragon制作的全国首部“春节AIGC”登陆全国高铁",
+        description: "",
+        url: "https://mp.weixin.qq.com/s/2BFi0qEp0xUdhmwKcG22_w",
       },
       {
         title:

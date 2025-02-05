@@ -101,21 +101,23 @@ export default {
   faq: {
     title: "更多资讯",
     title1:
-      "AI赋能传统，春节焕新颜——AIGC浙江春节宣传短片登陆全国高铁！",
+      "重磅！！！FizzDragon入选阿里巴巴创业者基金Jumpstarter环球创业比赛路演“全球30强”！！！",
     title2:
-      "学员招募｜快来参与“FizzDragon—南艺”AIGC新锐影像工作坊",
+      "穿越时空的团圆：FizzDragon制作的全国首部“春节AIGC”登陆全国高铁",
     title3:
+      "学员招募｜快来参与“FizzDragon—南艺”AIGC新锐影像工作坊",
+    title4:
       "FizzDragon×星辰杯系列赛事组委会|关于征集科幻小小说作品AIGC共创改编的启事",
-    title4: "FizzDragon×《易漫》|AIGC打造“东方迪士尼”神话",
-    title5:
-      "沸腾宇宙AIGC电影实验室 | 用拼图的方式拍电影？全网征集10000张照片，挑战想象力叙事极限",
+    title5: "FizzDragon×《易漫》|AIGC打造“东方迪士尼”神话",
     title6:
+      "沸腾宇宙AIGC电影实验室 | 用拼图的方式拍电影？全网征集10000张照片，挑战想象力叙事极限",
+    title7:
       "签约专栏｜科幻小说大赛一等奖得主邵子岐与FizzDragon独家签约推出“AIGC版天算”，推动科幻小说走向AIGC影视化",
-    title7: "最新3分钟｜“她是谁？”“她，是新帮主，是红旗帮的新女王！",
-    title8:
+    title8: "最新3分钟｜“她是谁？”“她，是新帮主，是红旗帮的新女王！",
+    title9:
       "签约专栏｜追光之旅！华语科幻星云奖年度新星暨科幻小说《极光之歌》作者“汪小海”与FizzDragon签约",
-    title9: "Pax有话说——让好故事发生，且发声",
-    title10:
+    title10: "Pax有话说——让好故事发生，且发声",
+    title11:
       "签约专栏｜当地球沸腾！“娘子关杯”一等奖得主暨科幻小说《重生之愿》作者王云轩与FizzDragon签约",
   },
   cta: {
