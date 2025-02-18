@@ -46,7 +46,7 @@ export default {
     description2:
       "FizzDragon presents an interactive AIGC drama based on the classic Records of the Grand Historian, promoting Chinese culture and showcasing AIGC technology. Users influence the story's path through interactive choices. The five-part series covers key historical periods, beginning with the pivotal Banquet at Hongmen, where Liu Bang strategically yields to Xiang Yu, avoiding conflict and setting the stage for later events. Viewers experience the story through Liu Bang or Xiang Yu's perspectives, gaining deeper insight into their characters and fates. How will this political game play out? Discover it yourself!",
     title3: "Zheng Yi Sao",
-    button3: "Click to watch",
+    button3: "Click to watch the trailer",
     description3:
       "In the early 18th century, the Qing Dynasty's suppression of bandits cut off the livelihood of the Red Flag Gang and other pirate alliances, leading to internal rifts. Zheng Yi Sao, the leader of the gang, decided to surrender, but the first few rounds of negotiations failed. She personally led a delegation to Guangzhou, using 17 women and children as 'hostages' to show her sincerity. The Qing side reluctantly accepted some of the conditions, achieving modest results. After returning, she faced the challenge of persuading her gang members to accept the agreement, and after repeated persuasion, she finally won the support of the majority. Thirty years later, the elderly Zheng Yi Sao came out of retirement again to help Lin Zexu repel the invading British army, winning her final military merit.",
     title4: "Shan Hai Jing (Classic of Mountains and Seas)",
