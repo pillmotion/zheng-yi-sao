@@ -31,6 +31,12 @@ export const page: Page = {
           url: "/zhengyisao",
           target: "_self",
         },
+        {
+          key: "title4",
+          title: "Partnerships",
+          url: "/partnerships",
+          target: "_self",
+        },
       ],
     },
   },

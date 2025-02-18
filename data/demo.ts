@@ -28,6 +28,11 @@ export const page: Page = {
           url: "/",
           target: "_self",
         },
+        {
+          title: "Partnerships",
+          url: "/partnerships",
+          target: "_self",
+        },
       ],
     },
   },

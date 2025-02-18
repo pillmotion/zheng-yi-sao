@@ -3,6 +3,26 @@ export default {
     title1: "Official Site",
     title2: "AIGC Global Movie Launchpad",
     title3: "Zheng Yi Sao",
+    title4: "Partnerships",
+  },
+  partnerships: {
+    title: "Partnerships",
+    description: "Joint Ventures, Global Partners and Strategic Partners of FizzDragon. Join us to create value together.",
+    headerTitle: "FizzDragon Project Library",
+    heroTitle: "Search Partnerships",
+    heroDescription: "Explore our global network of partners and collaborators.",
+    contactUs: "Contact us to discuss partnership opportunities",
+    searchPlaceholder: "Search for partners or collaborators...",
+    sections: {
+      jointVenture: {
+        title: "Joint Ventures",
+        location: "Malaysia"
+      },
+      strategic: {
+        title: "Partners",
+        location: "Malaysia"
+      }
+    }
   },
   news: {
     title: "Latest News",

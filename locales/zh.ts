@@ -3,6 +3,26 @@ export default {
     title1: "官方网站",
     title2: "AIGC全球电影启动平台",
     title3: "郑一嫂专题页",
+    title4: "合作关系",
+  },
+  partnerships: {
+    title: "合作关系",
+    description: "FizzDragon的合资公司、全球合伙人及战略合作伙伴。让我们携手共创价值。",
+    headerTitle: "沸腾宇宙项目库",
+    heroTitle: "检索合作伙伴",
+    heroDescription: "探索我们的全球合作伙伴网络。",
+    contactUs: "联系我们，探讨合作机会",
+    searchPlaceholder: "搜索合作伙伴或合作机构...",
+    sections: {
+      jointVenture: {
+        title: "合资公司",
+        location: "马来西亚"
+      },
+      strategic: {
+        title: "合作伙伴",
+        location: "马来西亚"
+      }
+    }
   },
   news: {
     title: "最新消息",
