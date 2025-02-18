@@ -128,7 +128,7 @@ export const page: Page = {
         },
         button: {
           title: "点击观看",
-          url: "https://fizzdragon.com/movie/zheng-yi-sao/",
+          url: "https://fizzdragon.com/movie/zheng-yi-sao-final-trailer/",
           target: "_blank",
         },
       },
