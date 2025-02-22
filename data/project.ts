@@ -37,6 +37,12 @@ export const page: Page = {
           url: "/partnerships",
           target: "_self",
         },
+        {
+          key: "title5",
+          title: "AIGC Education & Training",
+          url: "/education",
+          target: "_self",
+        },
       ],
     },
   },
