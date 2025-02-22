@@ -33,11 +33,6 @@ export const page: Page = {
           url: "/partnerships",
           target: "_self",
         },
-        {
-          title: "AIGC Education & Training",
-          url: "/education",
-          target: "_self",
-        },
       ],
     },
   },

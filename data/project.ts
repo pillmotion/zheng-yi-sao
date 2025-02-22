@@ -37,17 +37,11 @@ export const page: Page = {
           url: "/partnerships",
           target: "_self",
         },
-        {
-          key: "title5",
-          title: "AIGC Education & Training",
-          url: "/education",
-          target: "_self",
-        },
       ],
     },
   },
   hero: {
-    title: "沸腾宇宙项目库",
+    title: "致力全球一流AIGC教育与培训服务",
     description: "这里，每个人都是讲故事的人，每个故事都会沸腾。",
     image: {
       src: "/imgs/hero.png",
