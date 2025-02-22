@@ -4,6 +4,7 @@ export default {
     title2: "AIGC全球电影启动平台",
     title3: "郑一嫂专题页",
     title4: "合作关系",
+    title5: "AIGC教育与培训",
   },
   partnerships: {
     title: "合作关系",

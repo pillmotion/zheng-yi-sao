@@ -14,27 +14,27 @@ export const page: Page = {
     nav: {
       items: [
         {
-          title: "Official Site",
+          title: "官方网站",
           url: "https://fizzdragon.com",
           target: "_blank",
         },
         {
-          title: "AIGC Global Movie Launchpad",
+          title: "AIGC全球电影启动平台",
           url: "https://launchpad.fizzdragon.com",
           target: "_blank",
         },
         {
-          title: "Project Dashboard",
+          title: "沸腾宇宙项目库",
           url: "/",
           target: "_self",
         },
         {
-          title: "Partnerships",
+          title: "合作关系",
           url: "/partnerships",
           target: "_self",
         },
         {
-          title: "AIGC Education & Training",
+          title: "AIGC教育与培训",
           url: "/education",
           target: "_self",
         },
@@ -42,28 +42,12 @@ export const page: Page = {
     },
   },
   hero: {
-    title: "《Zheng Yi Sao》",
-    description: "The movie is set to premiere in October 2024",
+    title: "致力全球一流AIGC教育与培训服务",
     image: {
       src: "/imgs/hero.png",
     },
     image_position: "right",
     text_align: "left",
-    buttons: [
-      {
-        title: "Share the poster",
-        url: "https://fizzdragon.com",
-        target: "_blank",
-        theme: "outline",
-      },
-      {
-        title: "Book",
-        url: "https://fizzdragon.com",
-        target: "_blank",
-      },
-    ],
-    show_happy_users: true,
-    show_proof: false,
   },
   section: {
     items: [
@@ -347,22 +331,22 @@ export const page: Page = {
     nav: {
       items: [
         {
-          title: "Products",
+          title: "产品",
           children: [
             {
-              title: "Official Site",
+              title: "官方网站",
               url: "https://fizzdragon.com",
               target: "_blank",
             },
             {
-              title: "AIGC Global Movie Launchpad",
+              title: "AIGC全球电影启动平台",
               url: "https://launchpad.fizzdragon.com",
               target: "_blank",
             },
           ],
         },
         {
-          title: "Contact Us",
+          title: "联系我们",
           children: [
             {
               title: "+65 8132 3869",
