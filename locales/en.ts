@@ -4,6 +4,7 @@ export default {
     title2: "AIGC Global Movie Launchpad",
     title3: "Zheng Yi Sao",
     title4: "Partnerships",
+    title5: "AIGC Education & Training",
   },
   partnerships: {
     title: "Partnerships",

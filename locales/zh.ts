@@ -4,11 +4,12 @@ export default {
     title2: "AIGC全球电影启动平台",
     title3: "郑一嫂专题页",
     title4: "合作关系",
+    title5: "AIGC教育与培训",
   },
   partnerships: {
     title: "合作关系",
     description: "FizzDragon的合资公司、全球合伙人及战略合作伙伴。让我们携手共创价值。",
-    headerTitle: "沸腾宇宙项目库",
+    headerTitle: "致力全球一流AIGC教育与培训服务",
     heroTitle: "检索合作伙伴",
     heroDescription: "探索我们的全球合作伙伴网络。",
     contactUs: "联系我们，探讨合作机会",
@@ -39,7 +40,7 @@ export default {
     finance: "财经"   // 新增
   },
   hero: {
-    title: "沸腾宇宙项目库",
+    title: "致力全球一流AIGC教育与培训服务",
     description: "这里，每个人都是讲故事的人，每个故事都会沸腾。",
     button1: "点击跳转官网",
   },

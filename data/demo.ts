@@ -33,6 +33,11 @@ export const page: Page = {
           url: "/partnerships",
           target: "_self",
         },
+        {
+          title: "AIGC Education & Training",
+          url: "https://chongqing.fizzdragon.com",
+          target: "_blank",
+        },
       ],
     },
   },
