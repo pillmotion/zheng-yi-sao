@@ -12,12 +12,14 @@ import Section from "../components/section";
 import Testimonial from "../components/testimonial";
 import Usercase from "../components/usercase";
 import LearnComponent from "../components/learn";
+import TheWall from "../components/thewall";
 
 export default function ({ page }: { page: Page }) {
   return (
     <>
       {page.header && <Header header={page.header} />}
       {page.hero && <Hero hero={page.hero} />}
+      <TheWall />
       <LearnComponent />
       {/* {page.usercase && <Usercase section={page.usercase} />} */}
       {/* {page.section && <Section section={page.section} />} */}
