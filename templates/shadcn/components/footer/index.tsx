@@ -29,7 +29,7 @@ export default function ({ footer }: { footer: Footer }) {
                 className="h-[48px] w-auto"
               />
               <div className="flex flex-col mt-4">
-                {footer.brand.description}
+              电视/电影/互联网内容许可 NO.BNC2400003<br />(IMDA, Singapore)
               </div>
             </div>
           )}

@@ -26,7 +26,7 @@ export default function ({ footer }: { footer: Footer }) {
           {footer.brand && footer.brand.title && (
             <div className="w-full md:w-1/2 text-center md:text-left px-8">
               <img src="/imgs/png2.png" alt="footer" className="h-[48px] w-auto" />
-              <div className="flex flex-col">{footer.brand.description}</div>
+              <div className="flex flex-col">电视/电影/互联网内容许可 NO.BNC2400003<br />(IMDA, Singapore)</div>
             </div>
           )}
 
