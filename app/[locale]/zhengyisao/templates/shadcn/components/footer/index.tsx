@@ -25,7 +25,7 @@ export default function ({ footer }: { footer: Footer }) {
           {/* Newsletter */}
           {footer.brand && footer.brand.title && (
             <div className="w-full md:w-1/2 text-center md:text-left px-8">
-              <img src="/imgs/footer.jpg" alt="footer" className="h-[104px] w-auto" />
+              <img src="/imgs/png2.png" alt="footer" className="h-[48px] w-auto" />
               <div className="flex flex-col">{footer.brand.description}</div>
             </div>
           )}

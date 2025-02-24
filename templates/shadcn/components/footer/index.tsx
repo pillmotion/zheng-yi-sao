@@ -24,9 +24,9 @@ export default function ({ footer }: { footer: Footer }) {
           {footer.brand && footer.brand.title && (
             <div className="w-full md:w-1/3 text-center md:text-left px-8">
               <img
-                src="/imgs/footer.jpg"
+                src="/imgs/png2.png"
                 alt="footer"
-                className="h-[104px] w-auto"
+                className="h-[48px] w-auto"
               />
               <div className="flex flex-col mt-4">
                 {footer.brand.description}
