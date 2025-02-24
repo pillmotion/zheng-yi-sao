@@ -432,7 +432,7 @@ export const page: Page = {
           title: "Contact Us",
           children: [
             {
-              title: "+65 8132 3869",
+              title: "+65 8132 3869 (Singapore)",
               url: "tel:+6581323869",
               target: "_self",
             },

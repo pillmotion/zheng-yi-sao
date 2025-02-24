@@ -157,7 +157,7 @@ export default {
     title1_1: "官方网站",
     title1_2: "AIGC全球电影启动平台",
     title2: "联系我们",
-    title2_1: "+65 8132 3869",
+    title2_1: "+65 8132 3869 (新加坡)",
     title2_2: "business@fizzdragon.com",
     title3: "合作伙伴",
     title3_1: "重庆对外经贸大学",

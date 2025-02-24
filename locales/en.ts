@@ -159,7 +159,7 @@ export default {
     title1_1: "Official Site",
     title1_2: "AIGC Global Movie Launchpad",
     title2: "Contact Us",
-    title2_1: "+65 8132 3869",
+    title2_1: "+65 8132 3869 (Singapore)",
     title2_2: "business@fizzdragon.com",
     title3: "Partners",
     title3_1: "Chongqing University of International Business and Economics",

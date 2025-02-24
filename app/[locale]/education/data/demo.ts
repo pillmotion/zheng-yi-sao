@@ -350,7 +350,7 @@ export const page: Page = {
           title: "联系我们",
           children: [
             {
-              title: "+65 8132 3869",
+              title: "+65 8132 3869 (新加坡)",
               url: "tel:+6581323869",
               target: "_self",
             },
