@@ -96,27 +96,72 @@ export const images = [
       },
       {
         id: 20,
-        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image49.jpg",
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image50.jpg",
         alt: "学生作品20"
       },
       {
         id: 21,
-        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image50.jpg",
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image51.jpg",
         alt: "学生作品21"
       },
       {
         id: 22,
-        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image51.jpg",
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image52.jpg",
         alt: "学生作品22"
       },
       {
         id: 23,
-        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image52.jpg",
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image54.jpg",
         alt: "学生作品23"
       },
       {
         id: 24,
-        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image53.jpg",
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image55.jpg",
         alt: "学生作品24"
+      },
+      {
+        id: 25,
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image56.jpg",
+        alt: "学生作品25"
+      },
+      {
+        id: 26,
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image57.jpg",
+        alt: "学生作品26"
+      },
+      {
+        id: 27,
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image58.jpg",
+        alt: "学生作品27"
+      },
+      {
+        id: 28,
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image59.jpg",
+        alt: "学生作品28"
+      },
+      {
+        id: 29,
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image60.jpg",
+        alt: "学生作品29"
+      },
+      {
+        id: 30,
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image62.jpg",
+        alt: "学生作品30"
+      },
+      {
+        id: 31,
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image63.jpg",
+        alt: "学生作品31"
+      },
+      {
+        id: 32,
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image61.jpg",
+        alt: "学生作品32"
+      },
+      {
+        id: 33,
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image53.jpg",
+        alt: "学生作品33"
       },
   ]
