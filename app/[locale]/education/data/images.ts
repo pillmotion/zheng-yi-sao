@@ -91,12 +91,12 @@ export const images = [
       },
       {
         id: 19,
-        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image48.jpg",
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image64.jpg",
         alt: "学生作品19"
       },
       {
         id: 20,
-        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image50.jpg",
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image69.jpg",
         alt: "学生作品20"
       },
       {
@@ -161,7 +161,17 @@ export const images = [
       },
       {
         id: 33,
-        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image53.jpg",
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image68.jpg",
         alt: "学生作品33"
+      },
+      {
+        id: 34,
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image67.jpg",
+        alt: "学生作品34"
+      },
+      {
+        id: 35,
+        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image66.jpg",
+        alt: "学生作品35"
       },
   ]

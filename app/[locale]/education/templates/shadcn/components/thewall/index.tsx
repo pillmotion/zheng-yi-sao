@@ -5,7 +5,7 @@ import { images } from '../../../../data/images';
 
 export default function TheWall() {
   // 只展示前24张图片
-  const displayImages = images.slice(0, 33);
+  const displayImages = images.slice(0, 35);
 
   return (
     <section className="bg-gradient-to-t from-zinc-50 to-white dark:from-zinc-950 dark:to-black">

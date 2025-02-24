@@ -9,35 +9,41 @@ export default function ({ hero }: { hero: Hero }) {
   }
 
   return (
-    <div className="bg-gradient-to-t from-zinc-50 to-white dark:from-zinc-950 dark:to-black relative">
-      <div className="absolute bg-[url('/_convertfast/gradient-bg-0.svg')] bg-auto bg-no-repeat z-0 inset-0 top-0 bottom-0 left-0 right-0 grayscale"></div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32 relative z-10">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-5xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-primary mb-6 drop-shadow-md">
-            {hero.title}
-          </h2>
-          <p className="text-xl sm:text-2xl text-muted-foreground mb-8">
-            {hero.description}
-          </p>
-          <div className="flex flex-row justify-center gap-4">
-            {hero.buttons?.map((v, idx) => (
-              <Link key={idx} href={v.url || ""} target={v.target || "_self"}>
-                <Button
-                  key={idx}
-                  size="lg"
-                  variant={v.theme === "outline" ? "outline" : "default"}
-                  className={`
-                    ${v.theme === "outline"
-                      ? "bg-transparent text-red-600 border-2 border-red-600 hover:bg-red-600 hover:text-white"
-                      : "bg-red-600 hover:bg-red-700 text-white"
-                    }
-                    text-xl py-6 px-8 h-auto w-48 transition-colors duration-300
-                  `}
-                >
-                  {v.title}
-                </Button>
-              </Link>
-            ))}
+    <div className="relative min-h-[80vh] mb-8 sm:mb-12">
+      {/* 背景图片 */}
+      <div className="absolute inset-0">
+        <img
+          src="/imgs/image42.jpg"
+          alt=""
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      {/* 主要内容 */}
+      <div className="relative z-10 h-full flex items-center">
+        <div className="w-full px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-32">
+        <div className="relative overflow-hidden
+              mx-auto
+              w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] max-w-6xl
+              p-6 sm:p-8 lg:p-12
+              rounded-3xl
+              mb-8 sm:mb-12 lg:mb-16">
+            {/* 主背景 - 深色半透明 */}
+            <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
+            
+            {/* 渐变光效 */}
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 via-transparent to-purple-500/10" />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20" />
+            
+            {/* 内容 */}
+            <div className="relative z-10">
+              <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight text-white mb-4 sm:mb-6 text-center">
+                {hero.title}
+              </h2>
+              <p className="text-lg sm:text-xl lg:text-2xl text-gray-200 mb-6 sm:mb-8 text-center">
+                {hero.description}
+              </p>
+            </div>
           </div>
         </div>
       </div>

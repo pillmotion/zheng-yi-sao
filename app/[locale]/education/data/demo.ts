@@ -43,6 +43,7 @@ export const page: Page = {
   },
   hero: {
     title: "致力全球一流AIGC教育与培训服务",
+    description: "广泛服务于公办高校、民办高校、政府新媒体部门、广播电视台、广电网络、教育与培训等需要拥抱AIGC的机构和组织",
     image: {
       src: "/imgs/hero.png",
     },
