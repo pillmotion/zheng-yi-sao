@@ -14,28 +14,33 @@ export const page: Page = {
     nav: {
       items: [
         {
-          title: "官方网站",
+          key: "title1",
+          title: "Official Site",
           url: "https://fizzdragon.com",
           target: "_blank",
         },
         {
-          title: "AIGC全球电影启动平台",
+          key: "title2",
+          title: "AIGC Global Movie Launchpad",
           url: "https://launchpad.fizzdragon.com",
           target: "_blank",
         },
         {
-          title: "沸腾宇宙项目库",
-          url: "/",
+          key: "title3",
+          title: "Zheng Yi Sao",
+          url: "/zhengyisao",
           target: "_self",
         },
         {
-          title: "合作关系",
+          key: "title4",
+          title: "Partnerships",
           url: "/partnerships",
           target: "_self",
         },
         {
-          title: "AIGC教育与培训",
-          url: "/education",
+          key: "title5",
+          title: "AIGC Education & Training",
+          url: "/",
           target: "_self",
         },
       ],
@@ -332,25 +337,25 @@ export const page: Page = {
     nav: {
       items: [
         {
-          title: "产品",
+          title: "Products",
           children: [
             {
-              title: "官方网站",
+              title: "Official Site",
               url: "https://fizzdragon.com",
               target: "_blank",
             },
             {
-              title: "AIGC全球电影启动平台",
+              title: "AIGC Global Movie Launchpad",
               url: "https://launchpad.fizzdragon.com",
               target: "_blank",
             },
           ],
         },
         {
-          title: "联系我们",
+          title: "Contact Us",
           children: [
             {
-              title: "+65 8132 3869 (新加坡)",
+              title: "+65 8132 3869 (Singapore)",
               url: "tel:+6581323869",
               target: "_self",
             },
@@ -358,6 +363,21 @@ export const page: Page = {
               title: "business@fizzdragon.com",
               url: "mailto:business@fizzdragon.com",
               target: "_self",
+            },
+          ],
+        },
+        {
+          title: "Partners",
+          children: [
+            {
+              title: "Chongqing University of International Business and Economics",
+              url: "https://www.ccibe.edu.cn/",
+              target: "_blank",
+            },
+            {
+              title: "Zhejiang Provincial Department of Culture, Radio, Television, and Tourism",
+              url: "https://ct.zj.gov.cn/",
+              target: "_blank",
             },
           ],
         },

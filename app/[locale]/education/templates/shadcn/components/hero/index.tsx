@@ -1,9 +1,14 @@
+"use client";
+
 // import { BGShapeCircle } from "@/components/bg-shape-circle";
 import { Button } from "@/components/ui/button";
+import { useScopedI18n } from "@/locales/client";
 import { Hero } from "@/types/landing";
 import Link from "next/link";
 
 export default function ({ hero }: { hero: Hero }) {
+  const heroT = useScopedI18n("education.hero");
+
   if (hero.disabled) {
     return;
   }
@@ -38,10 +43,10 @@ export default function ({ hero }: { hero: Hero }) {
             {/* 内容 */}
             <div className="relative z-10">
               <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight text-white mb-4 sm:mb-6 text-center">
-                {hero.title}
+              {heroT("title")}
               </h2>
               <p className="text-lg sm:text-xl lg:text-2xl text-gray-200 mb-6 sm:mb-8 text-center">
-                {hero.description}
+              {heroT("description")}
               </p>
             </div>
           </div>

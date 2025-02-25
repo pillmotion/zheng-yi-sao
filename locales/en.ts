@@ -180,4 +180,21 @@ export default {
     news6: "Linking University Resources to Traditional Industries: The West Lake Digital Art AI Industrial Park Officially Opens",
     news7: "On-site: The West Lake Digital Art AI Industrial Park Opens Today, Establishing Zhejiang Province's First Digital Art AI Industrialization Ecosystem Platform",
   },
+  education: {
+    header: {
+      title1: "Official Site",
+      title2: "AIGC Global Movie Launchpad",
+      title3: "Zheng Yi Sao",
+      title4: "Partnerships",
+      title5: "FizzDragon Project Library",
+    },
+    hero: {
+      title: "Committed to World-Class AIGC Education and Training Services",
+      description: "Serving public universities, private colleges, government media departments, broadcasting stations, cable networks, and educational institutions embracing AIGC technology",
+    },
+    learn: {
+      title: "AIGC Showcase",
+      description: "After just 9 days of training, every student can create their own AIGC short film",
+    },
+  },
 } as const;

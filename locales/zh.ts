@@ -178,4 +178,21 @@ export default {
     news6: "为传统产业链接高校资源，西湖数艺AI产业园正式开园",
     news7: "在现场 西湖数艺AI产业园今日开园 打造浙江省首个数艺AI产业化生态平台",
   },
+  education: {
+    header: {
+      title1: "官方网站",
+      title2: "AIGC全球电影启动平台",
+      title3: "郑一嫂专题页",
+      title4: "合作关系",
+      title5: "沸腾宇宙项目库",
+    },
+    hero: {
+      title: "致力全球一流AIGC教育与培训服务",
+      description: "广泛服务于公办高校、民办高校、政府新媒体部门、广播电视台、广电网络、教育与培训等需要拥抱AIGC的机构和组织",
+    },
+    learn: {
+      title: "AIGC作品展示",
+      description: "经过短短9天培训，每一位学生都可以做出自己的AIGC短片",
+    },
+  },
 } as const;

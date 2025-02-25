@@ -1,3 +1,5 @@
+"use client";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,8 +12,12 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "@/components/ui/mode-toggle";
+import { LanguageSwitcher } from "@/components/language-switcher";
+import { useScopedI18n } from "@/locales/client";
 
 export default function ({ header }: { header: Header }) {
+  const headerT = useScopedI18n("education.header");
+
   if (header.disabled) {
     return null;
   }
@@ -47,20 +53,20 @@ export default function ({ header }: { header: Header }) {
           </Link>
 
           <nav className="flex items-center space-x-6 text-sm">
-            {header.nav?.items?.map((v: Item, idx: number) => (
-              <Link key={idx} href={v.url || ""} target={v.target || "_self"}>
-                {v.title}
-              </Link>
-            ))}
+            {header.nav?.items?.map((v: Item, idx: number) => {
+              const key = v.key as "title1" | "title2" | "title3"; // 确保 key 是有效的类型
+              return (
+                <Link key={idx} href={v.url || ""} target={v.target || "_self"}>
+                  {headerT(key) || v.title}
+                </Link>
+              );
+            })}
           </nav>
         </div>
 
         {/* 移动端 LOGO */}
         <div className="md:hidden flex items-center">
-          <Link
-            href={header.brand?.url || ""}
-            className="text-lg font-medium"
-          >
+          <Link href={header.brand?.url || ""} className="text-lg font-medium">
             {header.brand && header.brand.avatar ? (
               <div className="flex items-center gap-x-2 cursor-pointer">
                 <div className="relative">
@@ -85,44 +91,63 @@ export default function ({ header }: { header: Header }) {
 
         {/* 桌面版按钮和主题切换 */}
         <div className="hidden md:flex items-center space-x-4">
+          <LanguageSwitcher />
           <ModeToggle />
-          {header.buttons?.map((v, idx) => (
-            <Link key={idx} href={v.url || ""} target={v.target || "_self"}>
-              <Button
-                size="sm"
-                variant={v.theme === "outline" ? "outline" : "default"}
-              >
-                {v.title}
-              </Button>
-            </Link>
-          ))}
+          {header.buttons?.map((v, idx) => {
+            const key = v.key as "title1" | "title2" | "title3"; // 确保 key 是有效的类型
+            return (
+              <Link key={idx} href={v.url || ""} target={v.target || "_self"}>
+                <Button
+                  size="sm"
+                  variant={v.theme === "outline" ? "outline" : "default"}
+                >
+                  {headerT(key) || v.title}
+                </Button>
+              </Link>
+            );
+          })}
         </div>
 
         {/* 移动端菜单 */}
-        <div className="md:hidden flex items-center">
+        <div className="md:hidden flex items-center space-x-2">
+          <LanguageSwitcher />
           <ModeToggle />
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="outline" size="icon" className="ml-2">
+              <Button variant="outline" size="icon">
                 <Menu className="h-5 w-5" />
                 <span className="sr-only">打开菜单</span>
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
-              {header.nav?.items?.map((v: Item, idx: number) => (
-                <DropdownMenuItem key={idx}>
-                  <Link href={v.url || ""} target={v.target || "_self"} className="w-full">
-                    {v.title}
-                  </Link>
-                </DropdownMenuItem>
-              ))}
-              {header.buttons?.map((v, idx) => (
-                <DropdownMenuItem key={idx}>
-                  <Link href={v.url || ""} target={v.target || "_self"} className="w-full">
-                    {v.title}
-                  </Link>
-                </DropdownMenuItem>
-              ))}
+              {header.nav?.items?.map((v: Item, idx: number) => {
+                const key = v.key as "title1" | "title2" | "title3"; // 确保 key 是有效的类型
+                return (
+                  <DropdownMenuItem key={idx}>
+                    <Link
+                      href={v.url || ""}
+                      target={v.target || "_self"}
+                      className="w-full"
+                    >
+                      {headerT(key) || v.title}
+                    </Link>
+                  </DropdownMenuItem>
+                );
+              })}
+              {header.buttons?.map((v, idx) => {
+                const key = v.key as "title1" | "title2" | "title3"; // 确保 key 是有效的类型
+                return (
+                  <DropdownMenuItem key={idx}>
+                    <Link
+                      href={v.url || ""}
+                      target={v.target || "_self"}
+                      className="w-full"
+                    >
+                      {headerT(key) || v.title}
+                    </Link>
+                  </DropdownMenuItem>
+                );
+              })}
             </DropdownMenuContent>
           </DropdownMenu>
         </div>

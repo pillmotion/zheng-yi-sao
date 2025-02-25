@@ -1,10 +1,8 @@
 "use client";
 
-import { Youtube, Instagram } from "lucide-react";
-import { Footer, Item, Nav } from "@/types/landing";
+import { Instagram, Youtube } from "lucide-react";
+import { Footer, Item } from "@/types/landing";
 import { useScopedI18n } from "@/locales/client";
-
-import { Button } from "@/components/ui/button";
 
 const socialIcons = {
   Youtube: <Youtube className="w-6 h-6" />,
@@ -15,38 +13,51 @@ export default function ({ footer }: { footer: Footer }) {
   const t = useScopedI18n("footer");
 
   if (footer.disabled) {
-    return;
+    return null;
   }
 
   return (
     <footer className="bg-background border-t">
-      <div className="max-w-7xl mx-auto px-6 py-8">
-        <div className="flex flex-wrap">
-          {/* Newsletter */}
+      <div className="max-w-7xl mx-auto px-6 py-12">
+        <div className="flex flex-wrap gap-y-8">
+          {/* Brand */}
           {footer.brand && footer.brand.title && (
-            <div className="w-full md:w-1/2 text-center md:text-left px-8">
-              <img src="/imgs/png2.png" alt="footer" className="h-[48px] w-auto" />
-              <div className="flex flex-col">电视/电影/互联网内容许可 NO.BNC2400003<br />(Issued by IMDA, Singapore)</div>
+            <div className="w-full md:w-1/3 text-center md:text-left px-8">
+              <img
+                src="/imgs/png2.png"
+                alt="footer"
+                className="h-[48px] w-auto"
+              />
+              <div className="flex flex-col mt-4">
+                电视/电影/互联网内容许可 NO.BNC2400003<br />(Issued by IMDA, Singapore)
+              </div>
             </div>
           )}
 
           {footer.nav?.items?.map((v: Item, idx: number) => {
+            const titleKey = `title${idx + 1}` as keyof typeof t;
             return (
               <div
-                className="w-full md:w-1/4 text-center md:text-left px-8"
+                className="w-full md:w-1/5 text-center md:text-left px-8"
                 key={idx}
               >
-                <p className="uppercase mb-6 font-bold">{v.title}</p>
-                <ul className="mb-4">
+                <p className="uppercase mb-6 font-bold text-sm">
+                  {t(titleKey)}
+                </p>
+                <ul className="mb-4 space-y-3">
                   {v.children?.map((item: Item, i) => {
+                    const translationKey = `title${idx + 1}_${
+                      i + 1
+                    }` as keyof typeof t;
                     return (
-                      <li className="mt-2" key={i}>
+                      <li key={i}>
                         <a
                           href={item.url}
                           target={item.target}
-                          className="hover:underline text-gray-600 hover:text-gray-800"
+                          className="hover:underline text-gray-600 hover:text-gray-800 line-clamp-2 text-sm"
+                          title={t(translationKey) || item.title}
                         >
-                          {item.title}
+                          {t(translationKey) || item.title}
                         </a>
                       </li>
                     );
@@ -90,7 +101,11 @@ export default function ({ footer }: { footer: Footer }) {
             </span>
             {t("footer.copyright_suffix")}
           </p>
-          {!footer.badge_disabled}
+          {!footer.badge_disabled && (
+            <p className="text-base text-gray-400">
+              {t("footer.badge_text")}
+            </p>
+          )}
         </div>
       </div>
     </footer>
