@@ -190,7 +190,7 @@ export default {
     },
     hero: {
       title: "Committed to World-Class AIGC Education and Training Services",
-      description: "Serving public universities, private colleges, government media departments, broadcasting stations, cable networks, and educational institutions embracing AIGC technology",
+      description: "Supporting public and private universities, colleges, government media departments, broadcasters, cable networks, and institutions embracing AIGC technology",
     },
     learn: {
       title: "AIGC Showcase",
