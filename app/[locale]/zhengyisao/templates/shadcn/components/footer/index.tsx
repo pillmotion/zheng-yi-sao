@@ -25,7 +25,16 @@ export default function ({ footer }: { footer: Footer }) {
           {/* Newsletter */}
           {footer.brand && footer.brand.title && (
             <div className="w-full md:w-1/2 text-center md:text-left px-8">
-              <img src="/imgs/png2.png" alt="footer" className="h-[48px] w-auto" />
+              <div className="relative inline-block">
+                <img
+                  src="/imgs/png2.png"
+                  alt="footer"
+                  className="h-[48px] w-auto"
+                />
+                <span className="absolute -top-1 -right-2 text-red-500 text-sm">
+                  ®
+                </span>
+              </div>
               <div className="flex flex-col">电视/电影/互联网内容许可 NO.BNC2400003<br />(Issued by IMDA, Singapore)</div>
             </div>
           )}

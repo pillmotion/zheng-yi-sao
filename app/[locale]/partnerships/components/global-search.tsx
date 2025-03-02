@@ -11,15 +11,12 @@ export function GlobalSearch({ sections }: { sections: PartnerSection[] }) {
 		<div>
 			<div className="flex flex-col gap-4 w-full relative mx-auto h-screen">
 				<div className="transition-all duration-1000">
-					<div
-						className="flex justify-center items-center mb-8"
-						style={{
-							opacity: 0,
-							animation: "fadeIn 0.05s ease forwards",
-						}}
-					>
+				<div className="flex justify-center items-center mb-8">
+					<div className="flex items-center relative">
 						<img src="/imgs/png2.png" alt="FizzDragon" className="h-8" />
+						<span className="text-sm text-red-600 absolute -top-2 -right-3">®</span>
 					</div>
+				</div>
 
 					<HeroTitle />
 

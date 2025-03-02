@@ -8,7 +8,7 @@ export default {
   },
   partnerships: {
     title: "合作关系",
-    description: "FizzDragon的合资公司、全球合伙人及战略合作伙伴。让我们携手共创价值。",
+    description: "FizzDragon全球AIGC创作者、AIGC生态合作伙伴、AIGC全球合伙人、全球合资公司及战略合作伙伴。让我们携手共创价值。",
     headerTitle: "沸腾宇宙项目库",
     heroTitle: "检索合作伙伴",
     heroDescription: "探索我们的全球合作伙伴网络。",

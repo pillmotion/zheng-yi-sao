@@ -8,7 +8,7 @@ export default {
   },
   partnerships: {
     title: "Partnerships",
-    description: "Joint Ventures, Global Partners and Strategic Partners of FizzDragon. Join us to create value together.",
+    description: "FizzDragon global AIGC creators, AIGC ecosystem partners, AIGC global partners, global joint ventures and strategic partners. Let's create value together.",
     headerTitle: "FizzDragon Project Library",
     heroTitle: "Search Partnerships",
     heroDescription: "Explore our global network of partners and collaborators.",
