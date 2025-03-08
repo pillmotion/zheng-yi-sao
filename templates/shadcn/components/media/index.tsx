@@ -14,6 +14,7 @@ import HangzhouLogo from "@/public/imgs/hangzhou_Logo.png";
 import PeopleRongLogo from "@/public/imgs/People_rong_Logo.png";
 import HZRBLogo from "@/public/imgs/hzrb_Logo.png";
 import XihuLogo from "@/public/imgs/xihu_Logo.png";
+import CBNCLogo from "@/public/imgs/CBNC_Logo.png"
 import Image from "next/image";
 import { useScopedI18n } from "@/locales/client";
 
@@ -84,6 +85,11 @@ export default function Media() {
       logo: XihuLogo, // 使用导入的 SVG
       title: t("news4"),
       url: "https://mp.weixin.qq.com/s/b3dtiIPcHaxNVpuUEHfPZg",
+    },
+    {
+      logo: CBNCLogo, // 使用导入的 SVG
+      title: t("news8"),
+      url: "https://www.cnbc.com/video/2025/02/13/from-ai-to-16k-screens-tech-is-disrupting-the-movie-industry.html",
     },
   ];
 
