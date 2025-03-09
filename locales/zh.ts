@@ -177,7 +177,7 @@ export default {
     news5: "全球协作发展AIGC 西湖数艺AI产业园今日开园",
     news6: "为传统产业链接高校资源，西湖数艺AI产业园正式开园",
     news7: "在现场 西湖数艺AI产业园今日开园 打造浙江省首个数艺AI产业化生态平台",
-    news8: "从AI到16K屏幕，科技再次颠覆电影行业",
+    news8: "CBNC：从AI到16K屏幕，科技再次颠覆电影行业",
   },
   education: {
     header: {

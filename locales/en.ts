@@ -179,7 +179,7 @@ export default {
     news5: "Global Collaboration for AIGC Development: West Lake Digital Art AI Industrial Park Opens Today",
     news6: "Linking University Resources to Traditional Industries: The West Lake Digital Art AI Industrial Park Officially Opens",
     news7: "On-site: The West Lake Digital Art AI Industrial Park Opens Today, Establishing Zhejiang Province's First Digital Art AI Industrialization Ecosystem Platform",
-    news8: "From AI to 16K screens, tech is once again disrupting the movie industry",
+    news8: "CBNC: From AI to 16K screens, tech is once again disrupting the movie industry",
   },
   education: {
     header: {

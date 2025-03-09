@@ -22,6 +22,11 @@ export default function Media() {
   const t = useScopedI18n("media");
   const mediaItems = [
     {
+      logo: CBNCLogo, // 使用导入的 SVG
+      title: t("news8"),
+      url: "https://www.cnbc.com/video/2025/02/13/from-ai-to-16k-screens-tech-is-disrupting-the-movie-industry.html",
+    },
+    {
       logo: LianheLogo, // 使用导入的 SVG
       title: t("news1"),
       url: "https://www.zaobao.com.sg/entertainment/story20241014-4975935",
@@ -85,11 +90,6 @@ export default function Media() {
       logo: XihuLogo, // 使用导入的 SVG
       title: t("news4"),
       url: "https://mp.weixin.qq.com/s/b3dtiIPcHaxNVpuUEHfPZg",
-    },
-    {
-      logo: CBNCLogo, // 使用导入的 SVG
-      title: t("news8"),
-      url: "https://www.cnbc.com/video/2025/02/13/from-ai-to-16k-screens-tech-is-disrupting-the-movie-industry.html",
     },
   ];
 
