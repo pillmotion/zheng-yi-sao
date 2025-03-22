@@ -32,6 +32,7 @@ export default {
     title3: "Recruitment for Participants｜Join the “FizzDragon—Nanjing University of the Arts” AIGC Innovative Image Workshop",
     title4: "New Journey, Starting from the West Lake Digital Art AI Industrial Park",
     title5: "FizzDragon China AIGC Smart Image Workshop First Stop Reveal",
+    title6: "Helping state-owned enterprises like Radio and Television Cable fully embrace AIGC, FizzDragon provides training services for Jiangsu Cable's \"AI Cloud Upgrade Plan\"",
     hot: "HOT",
     new: "NEW",
     update: "UPDATE",

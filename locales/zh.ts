@@ -32,6 +32,7 @@ export default {
     title3: "学员招募｜快来参与“FizzDragon—南艺”AIGC新锐影像工作坊",
     title4: "新的一程，从西湖国际数字艺术AI产业园出发",
     title5: "FizzDragon中国高校AIGC智能影像工作坊第一站实况揭秘",
+    title6: "助力广电有线等国企全速拥抱AIGC，FizzDragon为江苏有线“AI云升计划”提供培训服务",
     hot: "热门",
     new: "最新",
     update: "更新",

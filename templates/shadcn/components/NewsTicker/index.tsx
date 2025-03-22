@@ -47,34 +47,41 @@ export default function NewsTicker() {
   const news: NewsItem[] = [
     {
       id: 1,
-      text: t("title1"),
-      link: "https://mp.weixin.qq.com/s/T4ZXoUXtpyEnjjvPS9recw",
+      text: t("title6"),
+      link: "https://mp.weixin.qq.com/s/L02hEUEuUTb4enUWjOJOjA",
       type: NewsType.NEW,
     },
     {
       id: 2,
-      text: t("title2"),
-      link: "https://mp.weixin.qq.com/s/FRdg7B9ELv8xOVqt9Q4l5w",
-      type: NewsType.NEW,
+      text: t("title1"),
+      link: "https://mp.weixin.qq.com/s/T4ZXoUXtpyEnjjvPS9recw",
+      type: NewsType.HOT,
     },
     {
       id: 3,
+      text: t("title2"),
+      link: "https://mp.weixin.qq.com/s/FRdg7B9ELv8xOVqt9Q4l5w",
+      type: NewsType.HOT,
+    },
+    {
+      id: 4,
       text: t("title3"),
       link: "https://mp.weixin.qq.com/s/gMWE4S-7fNKzqBDJxJ_-0w",
       type: NewsType.UPDATE,
     },
     {
-      id: 4,
+      id: 5,
       text: t("title4"),
       link: "https://mp.weixin.qq.com/s/kEbxs1DrNOdwdA5f-R574w",
       type: NewsType.HOT,
     },
     {
-      id: 5,
+      id: 6,
       text: t("title5"),
       link: "https://mp.weixin.qq.com/s/5aA_lL994KZ5NQBaxkspTw",
-      type: NewsType.UPDATE,
+      type: NewsType.HOT,
     },
+    
   ];
 
   return (

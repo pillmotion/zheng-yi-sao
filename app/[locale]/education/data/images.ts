@@ -85,11 +85,6 @@ export const images = [
         alt: "学生作品17"
       },
       {
-        id: 18,
-        src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image47.jpg",
-        alt: "学生作品18"
-      },
-      {
         id: 19,
         src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image64.jpg",
         alt: "学生作品19"
@@ -173,5 +168,95 @@ export const images = [
         id: 35,
         src: "https://majjajfhoxucebhcbuih.supabase.co/storage/v1/object/public/images/image66.jpg",
         alt: "学生作品35"
+      },
+      {
+        id: 36,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image1.jpg",
+        alt: "广电培训1"
+      },
+      {
+        id: 37,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image2.jpg",
+        alt: "广电培训2"
+      },
+      {
+        id: 38,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image3.jpg",
+        alt: "广电培训3"
+      },
+      {
+        id: 39,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image4.jpg",
+        alt: "广电培训4"
+      },
+      {
+        id: 40,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image5.jpg",
+        alt: "广电培训5"
+      },
+      {
+        id: 41,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image6.jpg",
+        alt: "广电培训6"
+      },
+      {
+        id: 42,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image7.jpg",
+        alt: "广电培训7"
+      },
+      {
+        id: 43,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image8.jpg",
+        alt: "广电培训8"
+      },
+      {
+        id: 44,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image9.jpg",
+        alt: "广电培训9"
+      },
+      {
+        id: 45,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image10.jpg",
+        alt: "广电培训10"
+      },
+      {
+        id: 46,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image11.jpg",
+        alt: "广电培训11"
+      },
+      {
+        id: 47,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image12.jpg",
+        alt: "广电培训12"
+      },
+      {
+        id: 48,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image13.jpg",
+        alt: "广电培训13"
+      },
+      {
+        id: 49,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image14.jpg",
+        alt: "广电培训14"
+      },
+      {
+        id: 50,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image15.jpg",
+        alt: "广电培训15"
+      },
+      {
+        id: 51,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image16.jpg",
+        alt: "广电培训16"
+      },
+      {
+        id: 52,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image17.jpg",
+        alt: "广电培训17"
+      },
+      {
+        id: 53,
+        src: "https://fizzdragon.com/wp-content/uploads/2025/03/js-image18.jpg",
+        alt: "广电培训18"
       },
   ]

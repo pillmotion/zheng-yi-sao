@@ -4,8 +4,8 @@ import Image from 'next/image';
 import { images } from '../../../../data/images';
 
 export default function TheWall() {
-  // 只展示前24张图片
-  const displayImages = images.slice(0, 35);
+  // 倒序排列并展示图片
+  const displayImages = [...images].reverse().slice(0, 52);
 
   return (
     <section className="bg-gradient-to-t from-zinc-50 to-white dark:from-zinc-950 dark:to-black">
